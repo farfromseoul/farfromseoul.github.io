@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EAF3FF"/>
+      <stop offset="1" stop-color="#D6E8FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1080" cy="110" r="150" fill="#3182F6" opacity="0.07"/>
+  <circle cx="120" cy="600" r="170" fill="#3182F6" opacity="0.07"/>
+
+  <!-- calendar (patch tuesday) -->
+  <rect x="96" y="118" width="250" height="230" rx="28" fill="#191F28" opacity="0.10"/>
+  <rect x="86" y="104" width="250" height="230" rx="28" fill="#FFFFFF"/>
+  <rect x="86" y="104" width="250" height="66" rx="28" fill="#3182F6"/>
+  <rect x="86" y="140" width="250" height="30" fill="#3182F6"/>
+  <rect x="136" y="84" width="16" height="44" rx="8" fill="#1B64DA"/>
+  <rect x="270" y="84" width="16" height="44" rx="8" fill="#1B64DA"/>
+  <text x="211" y="150" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle">NOV · TUE</text>
+  <text x="211" y="280" font-family="DejaVu Sans, sans-serif" font-size="96" font-weight="700" fill="#191F28" text-anchor="middle">10</text>
+
+  <!-- envelope -->
+  <rect x="452" y="232" width="380" height="260" rx="30" fill="#191F28" opacity="0.10"/>
+  <rect x="440" y="218" width="380" height="260" rx="30" fill="#FFFFFF"/>
+  <path d="M 452 236 L 630 368 L 808 236" fill="none" stroke="#3182F6" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- file badge on envelope -->
+  <rect x="470" y="380" width="120" height="70" rx="16" fill="#EAF3FF"/>
+  <text x="530" y="426" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="700" fill="#1B64DA" text-anchor="middle">.msg</text>
+
+  <!-- leaking hash stream -->
+  <path d="M 800 300 C 880 250, 930 250, 990 290" fill="none" stroke="#F04452" stroke-width="10" stroke-linecap="round" stroke-dasharray="4 22"/>
+  <rect x="880" y="186" width="250" height="64" rx="32" fill="#F04452"/>
+  <text x="1005" y="228" font-family="DejaVu Sans Mono, monospace" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle">NTLMv2 #</text>
+  <!-- hook / attacker server -->
+  <rect x="970" y="282" width="150" height="120" rx="24" fill="#191F28"/>
+  <circle cx="1005" cy="320" r="8" fill="#F04452"/>
+  <rect x="1025" y="314" width="70" height="12" rx="6" fill="#4E5968"/>
+  <circle cx="1005" cy="362" r="8" fill="#F04452"/>
+  <rect x="1025" y="356" width="70" height="12" rx="6" fill="#4E5968"/>
+
+  <!-- shield patch -->
+  <path d="M 1045 455 L 1125 485 L 1125 545 C 1125 590, 1090 618, 1045 635 C 1000 618, 965 590, 965 545 L 965 485 Z" fill="#191F28" opacity="0.10" transform="translate(8,10)"/>
+  <path d="M 1045 455 L 1125 485 L 1125 545 C 1125 590, 1090 618, 1045 635 C 1000 618, 965 590, 965 545 L 965 485 Z" fill="#3FB950"/>
+  <path d="M 1010 545 L 1037 572 L 1085 520" fill="none" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- chips -->
+  <rect x="86" y="540" width="400" height="72" rx="36" fill="#191F28"/>
+  <text x="286" y="587" font-family="DejaVu Sans Mono, monospace" font-size="30" font-weight="700" fill="#FFFFFF" text-anchor="middle">CVE-2026-124194</text>
+  <rect x="510" y="540" width="200" height="72" rx="36" fill="#3182F6"/>
+  <text x="610" y="587" font-family="DejaVu Sans Mono, monospace" font-size="30" font-weight="700" fill="#FFFFFF" text-anchor="middle">CVSS 6.5</text>
+  <rect x="86" y="410" width="250" height="72" rx="36" fill="#FFFFFF"/>
+  <text x="211" y="457" font-family="DejaVu Sans Mono, monospace" font-size="30" font-weight="700" fill="#1B64DA" text-anchor="middle">1,000+ CVE</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EAF3FF"/>
+      <stop offset="1" stop-color="#D6E8FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1090" cy="80" r="130" fill="#FFFFFF" opacity="0.35"/>
+  <circle cx="90" cy="610" r="150" fill="#FFFFFF" opacity="0.3"/>
+
+  <!-- terminal window -->
+  <rect x="100" y="146" width="560" height="400" rx="32" fill="#191F28" opacity="0.10"/>
+  <rect x="84" y="128" width="560" height="400" rx="32" fill="#191F28"/>
+  <circle cx="126" cy="168" r="10" fill="#F04452"/>
+  <circle cx="158" cy="168" r="10" fill="#FFC342"/>
+  <circle cx="190" cy="168" r="10" fill="#3FB950"/>
+  <rect x="84" y="200" width="560" height="2" fill="#FFFFFF" opacity="0.08"/>
+  <g font-family="DejaVu Sans Mono, monospace" font-size="24">
+    <text x="124" y="256" fill="#3FB950">$</text>
+    <text x="150" y="256" fill="#FFFFFF">curl -A \</text>
+    <text x="150" y="300" fill="#8FB8FF">"bot (</text>
+    <rect x="236" y="276" width="200" height="34" rx="10" fill="#F04452"/>
+    <text x="248" y="300" fill="#FFFFFF">you@mail.com</text>
+    <text x="442" y="300" fill="#8FB8FF">)"</text>
+    <text x="150" y="344" fill="#FFFFFF">https://wiki…</text>
+    <text x="124" y="404" fill="#3FB950">$</text>
+    <rect x="150" y="384" width="14" height="26" fill="#FFFFFF" opacity="0.8"/>
+  </g>
+  <rect x="124" y="444" width="230" height="44" rx="22" fill="#3182F6"/>
+  <text x="239" y="474" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">User-Agent</text>
+  <rect x="370" y="444" width="140" height="44" rx="22" fill="#FFFFFF" opacity="0.15"/>
+  <text x="440" y="474" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#FFFFFF" text-anchor="middle">v2.1.317</text>
+
+  <!-- dashed path -->
+  <path d="M 660 300 C 730 250, 760 230, 820 240" stroke="#1B64DA" stroke-width="5" stroke-dasharray="4 14" stroke-linecap="round" fill="none"/>
+
+  <!-- envelope flying out -->
+  <g transform="rotate(-10 930 260)">
+    <rect x="842" y="202" width="200" height="132" rx="20" fill="#191F28" opacity="0.10"/>
+    <rect x="830" y="188" width="200" height="132" rx="20" fill="#FFFFFF"/>
+    <path d="M 846 204 L 930 266 L 1014 204" stroke="#3182F6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="1022" cy="196" r="26" fill="#F04452"/>
+    <text x="1022" y="206" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="bold" fill="#FFFFFF" text-anchor="middle">@</text>
+  </g>
+
+  <!-- shield -->
+  <path d="M 946 386 L 1046 422 L 1046 486 C 1046 546, 1002 580, 946 600 C 890 580, 846 546, 846 486 L 846 422 Z" fill="#191F28" opacity="0.10" transform="translate(12 12)"/>
+  <path d="M 946 386 L 1046 422 L 1046 486 C 1046 546, 1002 580, 946 600 C 890 580, 846 546, 846 486 L 846 422 Z" fill="#3182F6"/>
+  <path d="M 946 410 L 1024 438 L 1024 488 C 1024 534, 990 560, 946 576 Z" fill="#1B64DA"/>
+  <path d="M 906 490 L 936 520 L 990 462" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

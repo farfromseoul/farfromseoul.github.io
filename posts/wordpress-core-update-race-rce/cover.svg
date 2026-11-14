@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EAF3FF"/>
+      <stop offset="1" stop-color="#D6E8FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1090" cy="100" r="150" fill="#FFFFFF" opacity="0.45"/>
+  <circle cx="110" cy="600" r="170" fill="#FFFFFF" opacity="0.4"/>
+
+  <!-- Update window card -->
+  <rect x="122" y="152" width="500" height="380" rx="36" fill="#191F28" opacity="0.10"/>
+  <rect x="108" y="136" width="500" height="380" rx="36" fill="#FFFFFF"/>
+  <rect x="108" y="136" width="500" height="64" rx="32" fill="#3182F6"/>
+  <rect x="108" y="168" width="500" height="32" fill="#3182F6"/>
+  <circle cx="146" cy="168" r="9" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="174" cy="168" r="9" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="202" cy="168" r="9" fill="#FFFFFF" opacity="0.4"/>
+  <!-- refresh arrows icon -->
+  <g transform="translate(200 300)" fill="none" stroke="#3182F6" stroke-width="14" stroke-linecap="round">
+    <path d="M-46 -6 A48 48 0 0 1 38 -30"/>
+    <path d="M46 6 A48 48 0 0 1 -38 30"/>
+  </g>
+  <path d="M232 256 L246 278 L222 284 Z" fill="#3182F6"/>
+  <path d="M168 344 L154 322 L178 316 Z" fill="#3182F6"/>
+  <!-- text lines -->
+  <rect x="290" y="262" width="250" height="18" rx="9" fill="#191F28" opacity="0.85"/>
+  <rect x="290" y="296" width="180" height="14" rx="7" fill="#191F28" opacity="0.25"/>
+  <rect x="290" y="322" width="210" height="14" rx="7" fill="#191F28" opacity="0.25"/>
+  <!-- progress bar -->
+  <rect x="150" y="402" width="416" height="30" rx="15" fill="#EAF3FF"/>
+  <rect x="150" y="402" width="290" height="30" rx="15" fill="#3182F6"/>
+  <rect x="150" y="402" width="120" height="30" rx="15" fill="#1B64DA"/>
+  <!-- timer chip -->
+  <rect x="150" y="452" width="168" height="40" rx="20" fill="#F04452"/>
+  <circle cx="176" cy="472" r="10" fill="none" stroke="#FFFFFF" stroke-width="4"/>
+  <path d="M176 466 V472 H181" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  <text x="194" y="480" font-family="DejaVu Sans Mono, monospace" font-size="22" font-weight="700" fill="#FFFFFF">TOCTOU</text>
+
+  <!-- folder (staging) -->
+  <path d="M752 250 h92 l24 26 h150 a24 24 0 0 1 24 24 v186 a24 24 0 0 1 -24 24 H752 a24 24 0 0 1 -24 -24 V274 a24 24 0 0 1 24 -24 z" fill="#191F28" opacity="0.10" transform="translate(14 16)"/>
+  <path d="M752 250 h92 l24 26 h150 a24 24 0 0 1 24 24 v186 a24 24 0 0 1 -24 24 H752 a24 24 0 0 1 -24 -24 V274 a24 24 0 0 1 24 -24 z" fill="#1B64DA"/>
+  <rect x="728" y="306" width="314" height="204" rx="24" fill="#3182F6"/>
+  <text x="885" y="400" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="30" font-weight="700" fill="#FFFFFF">/upgrade/</text>
+  <rect x="790" y="430" width="190" height="16" rx="8" fill="#FFFFFF" opacity="0.5"/>
+  <rect x="820" y="458" width="130" height="16" rx="8" fill="#FFFFFF" opacity="0.35"/>
+
+  <!-- shield blocking -->
+  <g transform="translate(-32 0)"><path d="M660 300 L700 284 L740 300 V340 C740 372 720 392 700 402 C680 392 660 372 660 340 Z" fill="#191F28" opacity="0.12" transform="translate(8 10)"/>
+  <path d="M660 300 L700 284 L740 300 V340 C740 372 720 392 700 402 C680 392 660 372 660 340 Z" fill="#3FB950"/>
+  <path d="M682 342 L696 356 L720 328" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></g>
+
+  <!-- bug sneaking toward folder -->
+  <g transform="translate(1010 190)">
+    <ellipse cx="4" cy="8" rx="34" ry="40" fill="#191F28" opacity="0.10"/>
+    <line x1="-30" y1="-8" x2="-46" y2="-18" stroke="#191F28" stroke-width="6" stroke-linecap="round"/>
+    <line x1="-32" y1="10" x2="-50" y2="10" stroke="#191F28" stroke-width="6" stroke-linecap="round"/>
+    <line x1="-28" y1="26" x2="-44" y2="38" stroke="#191F28" stroke-width="6" stroke-linecap="round"/>
+    <line x1="30" y1="-8" x2="46" y2="-18" stroke="#191F28" stroke-width="6" stroke-linecap="round"/>
+    <line x1="32" y1="10" x2="50" y2="10" stroke="#191F28" stroke-width="6" stroke-linecap="round"/>
+    <line x1="28" y1="26" x2="44" y2="38" stroke="#191F28" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="0" cy="4" rx="30" ry="36" fill="#F04452"/>
+    <circle cx="0" cy="-34" r="16" fill="#191F28"/>
+    <line x1="0" y1="-30" x2="0" y2="36" stroke="#FFFFFF" stroke-width="4" opacity="0.6"/>
+    <circle cx="-6" cy="-36" r="3.5" fill="#FFFFFF"/>
+    <circle cx="6" cy="-36" r="3.5" fill="#FFFFFF"/>
+  </g>
+  <path d="M968 236 C950 250 940 258 930 262" stroke="#F04452" stroke-width="6" stroke-linecap="round" stroke-dasharray="2 14" fill="none"/>
+
+  <!-- chips -->
+  <rect x="108" y="560" width="300" height="56" rx="28" fill="#191F28"/>
+  <text x="258" y="597" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="24" font-weight="700" fill="#FFFFFF">CVE-2026-119977</text>
+  <rect x="428" y="560" width="128" height="56" rx="28" fill="#FFFFFF"/>
+  <text x="492" y="597" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="700" fill="#F04452">403</text>
+  <rect x="576" y="560" width="150" height="56" rx="28" fill="#3FB950"/>
+  <text x="651" y="597" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="700" fill="#FFFFFF">7.1.4</text>
+</svg>

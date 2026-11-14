@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EAF3FF"/>
+      <stop offset="1" stop-color="#D6E8FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1080" cy="110" r="90" fill="#FFFFFF" opacity="0.45"/>
+  <circle cx="120" cy="590" r="120" fill="#FFFFFF" opacity="0.4"/>
+
+  <!-- cloud (dimmed, far) -->
+  <g opacity="0.55">
+    <path d="M880 230 a60 60 0 0 1 112 -26 a48 48 0 0 1 82 34 a42 42 0 0 1 -4 84 h-180 a46 46 0 0 1 -10 -92 z" fill="#FFFFFF"/>
+  </g>
+  <!-- dashed arrow from cloud to laptop (crossed) -->
+  <path d="M900 330 C 840 380, 800 380, 760 360" stroke="#1B64DA" stroke-width="6" fill="none" stroke-dasharray="14 12" stroke-linecap="round" opacity="0.5"/>
+  <g transform="translate(850,372)">
+    <circle r="26" fill="#F04452"/>
+    <path d="M-10 -10 L10 10 M10 -10 L-10 10" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- laptop shadow -->
+  <ellipse cx="480" cy="560" rx="320" ry="26" fill="#191F28" opacity="0.10"/>
+  <!-- laptop screen -->
+  <rect x="220" y="170" width="520" height="340" rx="28" fill="#191F28"/>
+  <rect x="244" y="194" width="472" height="292" rx="16" fill="#243041"/>
+  <!-- base -->
+  <path d="M170 520 h620 a10 10 0 0 1 10 10 v6 a22 22 0 0 1 -22 22 h-596 a22 22 0 0 1 -22 -22 v-6 a10 10 0 0 1 10 -10 z" fill="#3182F6"/>
+  <rect x="420" y="520" width="120" height="12" rx="6" fill="#1B64DA"/>
+
+  <!-- small cloud inside screen (local copy) -->
+  <path d="M330 300 a40 40 0 0 1 76 -18 a32 32 0 0 1 56 22 a30 30 0 0 1 -2 60 h-124 a32 32 0 0 1 -6 -64 z" fill="#3182F6"/>
+  <!-- boxes: bucket & table -->
+  <rect x="510" y="258" width="150" height="46" rx="12" fill="#FFFFFF"/>
+  <text x="585" y="289" font-family="DejaVu Sans Mono, monospace" font-size="22" font-weight="700" fill="#191F28" text-anchor="middle">S3</text>
+  <rect x="510" y="318" width="150" height="46" rx="12" fill="#FFFFFF"/>
+  <text x="585" y="349" font-family="DejaVu Sans Mono, monospace" font-size="20" font-weight="700" fill="#191F28" text-anchor="middle">DynamoDB</text>
+  <!-- terminal line -->
+  <text x="276" y="438" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#3FB950">$ aws-emulator</text>
+  <rect x="470" y="420" width="14" height="24" fill="#3FB950"/>
+
+  <!-- chip: endpoint -->
+  <g transform="translate(150,82)">
+    <rect x="4" y="6" width="396" height="64" rx="32" fill="#191F28" opacity="0.12"/>
+    <rect width="396" height="64" rx="32" fill="#FFFFFF"/>
+    <circle cx="36" cy="32" r="12" fill="#3FB950"/>
+    <text x="62" y="42" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="700" fill="#1B64DA">127.0.0.1:9297</text>
+  </g>
+
+  <!-- chip: test passed -->
+  <g transform="translate(830,450)">
+    <rect x="4" y="6" width="250" height="64" rx="32" fill="#191F28" opacity="0.12"/>
+    <rect width="250" height="64" rx="32" fill="#3FB950"/>
+    <path d="M30 32 l12 12 l22 -24" stroke="#FFFFFF" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="80" y="42" font-family="DejaVu Sans, sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">LOCAL OK</text>
+  </g>
+
+  <!-- chip: $0 -->
+  <g transform="translate(830,550)">
+    <rect x="4" y="6" width="150" height="56" rx="28" fill="#191F28" opacity="0.12"/>
+    <rect width="150" height="56" rx="28" fill="#FFFFFF"/>
+    <text x="75" y="38" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="700" fill="#191F28" text-anchor="middle">$0</text>
+  </g>
+</svg>

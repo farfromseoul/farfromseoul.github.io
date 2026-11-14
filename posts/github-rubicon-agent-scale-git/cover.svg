@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EAF3FF"/><stop offset="1" stop-color="#D6E8FF"/></linearGradient></defs>
+<rect width="1200" height="675" fill="url(#bg)"/>
+<circle cx="1090" cy="80" r="130" fill="#FFFFFF" opacity="0.35"/>
+<circle cx="90" cy="620" r="150" fill="#FFFFFF" opacity="0.3"/>
+<path d="M306 196 C 366 196, 430 300, 470 300" stroke="#3182F6" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.45" stroke-dasharray="2 12"/><path d="M306 282 C 366 282, 430 320, 470 320" stroke="#3182F6" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.45" stroke-dasharray="2 12"/><path d="M306 368 C 366 368, 430 340, 470 340" stroke="#3182F6" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.45" stroke-dasharray="2 12"/><path d="M306 454 C 366 454, 430 360, 470 360" stroke="#3182F6" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.45" stroke-dasharray="2 12"/>
+<rect x="95" y="176" width="52" height="52" rx="16" fill="#191F28" opacity="0.10"/>
+<rect x="90" y="170" width="52" height="52" rx="16" fill="#3182F6"/>
+<circle cx="108" cy="194" r="5" fill="#FFFFFF"/><circle cx="124" cy="194" r="5" fill="#FFFFFF"/>
+<rect x="106" y="206" width="20" height="5" rx="2.5" fill="#FFFFFF" opacity="0.7"/><rect x="173" y="176" width="52" height="52" rx="16" fill="#191F28" opacity="0.10"/>
+<rect x="168" y="170" width="52" height="52" rx="16" fill="#1B64DA"/>
+<circle cx="186" cy="194" r="5" fill="#FFFFFF"/><circle cx="202" cy="194" r="5" fill="#FFFFFF"/>
+<rect x="184" y="206" width="20" height="5" rx="2.5" fill="#FFFFFF" opacity="0.7"/><rect x="251" y="176" width="52" height="52" rx="16" fill="#191F28" opacity="0.10"/>
+<rect x="246" y="170" width="52" height="52" rx="16" fill="#3182F6"/>
+<circle cx="264" cy="194" r="5" fill="#FFFFFF"/><circle cx="280" cy="194" r="5" fill="#FFFFFF"/>
+<rect x="262" y="206" width="20" height="5" rx="2.5" fill="#FFFFFF" opacity="0.7"/><rect x="95" y="262" width="52" height="52" rx="16" fill="#191F28" opacity="0.10"/>
+<rect x="90" y="256" width="52" height="52" rx="16" fill="#1B64DA"/>
+<circle cx="108" cy="280" r="5" fill="#FFFFFF"/><circle cx="124" cy="280" r="5" fill="#FFFFFF"/>
+<rect x="106" y="292" width="20" height="5" rx="2.5" fill="#FFFFFF" opacity="0.7"/><rect x="173" y="262" width="52" height="52" rx="16" fill="#191F28" opacity="0.10"/>
+<rect x="168" y="256" width="52" height="52" rx="16" fill="#3182F6"/>
+<circle cx="186" cy="280" r="5" fill="#FFFFFF"/><circle cx="202" cy="280" r="5" fill="#FFFFFF"/>
+<rect x="184" y="292" width="20" height="5" rx="2.5" fill="#FFFFFF" opacity="0.7"/><rect x="251" y="262" width="52" height="52" rx="16" fill="#191F28" opacity="0.10"/>
+<rect x="246" y="256" width="52" height="52" rx="16" fill="#1B64DA"/>
+<circle cx="264" cy="280" r="5" fill="#FFFFFF"/><circle cx="280" cy="280" r="5" fill="#FFFFFF"/>
+<rect x="262" y="292" width="20" height="5" rx="2.5" fill="#FFFFFF" opacity="0.7"/><rect x="95" y="348" width="52" height="52" rx="16" fill="#191F28" opacity="0.10"/>
+<rect x="90" y="342" width="52" height="52" rx="16" fill="#3182F6"/>
+<circle cx="108" cy="366" r="5" fill="#FFFFFF"/><circle cx="124" cy="366" r="5" fill="#FFFFFF"/>
+<rect x="106" y="378" width="20" height="5" rx="2.5" fill="#FFFFFF" opacity="0.7"/><rect x="173" y="348" width="52" height="52" rx="16" fill="#191F28" opacity="0.10"/>
+<rect x="168" y="342" width="52" height="52" rx="16" fill="#1B64DA"/>
+<circle cx="186" cy="366" r="5" fill="#FFFFFF"/><circle cx="202" cy="366" r="5" fill="#FFFFFF"/>
+<rect x="184" y="378" width="20" height="5" rx="2.5" fill="#FFFFFF" opacity="0.7"/><rect x="251" y="348" width="52" height="52" rx="16" fill="#191F28" opacity="0.10"/>
+<rect x="246" y="342" width="52" height="52" rx="16" fill="#3182F6"/>
+<circle cx="264" cy="366" r="5" fill="#FFFFFF"/><circle cx="280" cy="366" r="5" fill="#FFFFFF"/>
+<rect x="262" y="378" width="20" height="5" rx="2.5" fill="#FFFFFF" opacity="0.7"/><rect x="95" y="434" width="52" height="52" rx="16" fill="#191F28" opacity="0.10"/>
+<rect x="90" y="428" width="52" height="52" rx="16" fill="#1B64DA"/>
+<circle cx="108" cy="452" r="5" fill="#FFFFFF"/><circle cx="124" cy="452" r="5" fill="#FFFFFF"/>
+<rect x="106" y="464" width="20" height="5" rx="2.5" fill="#FFFFFF" opacity="0.7"/><rect x="173" y="434" width="52" height="52" rx="16" fill="#191F28" opacity="0.10"/>
+<rect x="168" y="428" width="52" height="52" rx="16" fill="#3182F6"/>
+<circle cx="186" cy="452" r="5" fill="#FFFFFF"/><circle cx="202" cy="452" r="5" fill="#FFFFFF"/>
+<rect x="184" y="464" width="20" height="5" rx="2.5" fill="#FFFFFF" opacity="0.7"/><rect x="251" y="434" width="52" height="52" rx="16" fill="#191F28" opacity="0.10"/>
+<rect x="246" y="428" width="52" height="52" rx="16" fill="#1B64DA"/>
+<circle cx="264" cy="452" r="5" fill="#FFFFFF"/><circle cx="280" cy="452" r="5" fill="#FFFFFF"/>
+<rect x="262" y="464" width="20" height="5" rx="2.5" fill="#FFFFFF" opacity="0.7"/>
+<!-- storage cylinder shadow -->
+<g opacity="0.10" fill="#191F28" transform="translate(14,16)">
+<rect x="480" y="210" width="220" height="270"/><ellipse cx="590" cy="480" rx="110" ry="34"/><ellipse cx="590" cy="210" rx="110" ry="34"/></g>
+<rect x="480" y="210" width="220" height="270" fill="#1B64DA"/>
+<ellipse cx="590" cy="480" rx="110" ry="34" fill="#1B64DA"/>
+<ellipse cx="590" cy="390" rx="110" ry="34" fill="#3182F6" opacity="0.0"/>
+<path d="M480 300 A110 34 0 0 0 700 300" stroke="#EAF3FF" stroke-width="4" fill="none" opacity="0.5"/>
+<path d="M480 390 A110 34 0 0 0 700 390" stroke="#EAF3FF" stroke-width="4" fill="none" opacity="0.5"/>
+<ellipse cx="590" cy="210" rx="110" ry="34" fill="#3182F6"/>
+<!-- packs on top -->
+<rect x="540" y="168" width="44" height="40" rx="10" fill="#FFFFFF"/>
+<rect x="596" y="160" width="44" height="40" rx="10" fill="#FFC342"/>
+<rect x="566" y="128" width="44" height="40" rx="10" fill="#3FB950"/>
+<text x="590" y="350" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="bold" fill="#FFFFFF" text-anchor="middle">.pack</text>
+<text x="590" y="440" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#EAF3FF" text-anchor="middle" opacity="0.85">objects</text>
+<!-- connector -->
+<path d="M712 330 L 780 300" stroke="#191F28" stroke-width="6" stroke-linecap="round" opacity="0.35" stroke-dasharray="2 14"/>
+<!-- ref card -->
+<rect x="806" y="166" width="320" height="270" rx="28" fill="#191F28" opacity="0.10"/>
+<rect x="790" y="150" width="320" height="270" rx="28" fill="#FFFFFF"/>
+<rect x="790" y="150" width="320" height="62" rx="28" fill="#191F28"/>
+<rect x="790" y="184" width="320" height="28" fill="#191F28"/>
+<text x="822" y="192" font-family="DejaVu Sans Mono, monospace" font-size="24" font-weight="bold" fill="#FFFFFF">refs · CAS</text>
+<g font-family="DejaVu Sans Mono, monospace" font-size="21" fill="#191F28">
+<rect x="814" y="232" width="272" height="48" rx="14" fill="#EAF3FF"/>
+<text x="832" y="263">main</text><text x="950" y="263" fill="#1B64DA">→ 9f3e</text>
+<circle cx="1060" cy="256" r="14" fill="#3FB950"/><path d="M1053 256 l5 5 l9 -10" stroke="#FFFFFF" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="814" y="292" width="272" height="48" rx="14" fill="#EAF3FF"/>
+<text x="832" y="323">agent/a</text><text x="950" y="323" fill="#1B64DA">→ c41d</text>
+<circle cx="1060" cy="316" r="14" fill="#3FB950"/><path d="M1053 316 l5 5 l9 -10" stroke="#FFFFFF" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="814" y="352" width="272" height="48" rx="14" fill="#EAF3FF"/>
+<text x="832" y="383">agent/b</text><text x="950" y="383" fill="#1B64DA">→ 07ab</text>
+<circle cx="1060" cy="376" r="14" fill="#F04452"/><path d="M1054 370 l12 12 M1066 370 l-12 12" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+</g>
+<!-- chips -->
+<rect x="796" y="472" width="300" height="70" rx="35" fill="#191F28" opacity="0.10"/>
+<rect x="790" y="464" width="300" height="70" rx="35" fill="#191F28"/>
+<text x="940" y="510" font-family="DejaVu Sans Mono, monospace" font-size="30" font-weight="bold" fill="#FFFFFF" text-anchor="middle">7,200 push/s</text>
+<rect x="96" y="540" width="250" height="62" rx="31" fill="#191F28" opacity="0.10"/>
+<rect x="90" y="532" width="250" height="62" rx="31" fill="#3182F6"/>
+<text x="215" y="573" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="bold" fill="#FFFFFF" text-anchor="middle">×5,000 agents</text>
+</svg>

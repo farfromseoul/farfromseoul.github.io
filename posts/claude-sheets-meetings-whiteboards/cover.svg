@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EAF3FF"/>
+      <stop offset="1" stop-color="#D6E8FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1080" cy="110" r="150" fill="#FFFFFF" opacity="0.45"/>
+  <circle cx="120" cy="600" r="170" fill="#FFFFFF" opacity="0.4"/>
+
+  <!-- Spreadsheet card (left) -->
+  <rect x="128" y="168" width="440" height="360" rx="28" fill="#191F28" opacity="0.10"/>
+  <rect x="116" y="152" width="440" height="360" rx="28" fill="#FFFFFF"/>
+  <rect x="116" y="152" width="440" height="64" rx="28" fill="#3182F6"/>
+  <rect x="116" y="188" width="440" height="28" fill="#3182F6"/>
+  <circle cx="152" cy="184" r="8" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="178" cy="184" r="8" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="204" cy="184" r="8" fill="#FFFFFF" opacity="0.4"/>
+  <!-- grid -->
+  <g fill="#EAF3FF">
+    <rect x="144" y="240" width="110" height="40" rx="8"/><rect x="266" y="240" width="130" height="40" rx="8"/><rect x="408" y="240" width="120" height="40" rx="8"/>
+    <rect x="144" y="292" width="110" height="40" rx="8"/><rect x="266" y="292" width="130" height="40" rx="8"/><rect x="408" y="292" width="120" height="40" rx="8"/>
+    <rect x="144" y="344" width="110" height="40" rx="8"/><rect x="266" y="344" width="130" height="40" rx="8"/>
+    <rect x="144" y="396" width="110" height="40" rx="8"/><rect x="266" y="396" width="130" height="40" rx="8"/><rect x="408" y="396" width="120" height="40" rx="8"/>
+  </g>
+  <rect x="408" y="344" width="120" height="40" rx="8" fill="#FFFFFF" stroke="#3FB950" stroke-width="4"/>
+  <rect x="160" y="254" width="70" height="12" rx="6" fill="#1B64DA"/>
+  <rect x="282" y="254" width="80" height="12" rx="6" fill="#1B64DA"/>
+  <rect x="424" y="254" width="70" height="12" rx="6" fill="#1B64DA"/>
+  <rect x="160" y="306" width="60" height="12" rx="6" fill="#191F28" opacity="0.35"/>
+  <rect x="282" y="306" width="90" height="12" rx="6" fill="#191F28" opacity="0.35"/>
+  <rect x="424" y="306" width="50" height="12" rx="6" fill="#191F28" opacity="0.35"/>
+  <rect x="160" y="358" width="80" height="12" rx="6" fill="#191F28" opacity="0.35"/>
+  <rect x="282" y="358" width="70" height="12" rx="6" fill="#191F28" opacity="0.35"/>
+  <rect x="160" y="410" width="70" height="12" rx="6" fill="#191F28" opacity="0.35"/>
+  <rect x="282" y="410" width="60" height="12" rx="6" fill="#191F28" opacity="0.35"/>
+  <rect x="424" y="410" width="80" height="12" rx="6" fill="#191F28" opacity="0.35"/>
+  <text x="468" y="372" font-family="DejaVu Sans Mono, monospace" font-size="20" font-weight="700" fill="#3FB950" text-anchor="middle">=SUM</text>
+  <!-- formula chip -->
+  <rect x="150" y="458" width="230" height="36" rx="18" fill="#191F28"/>
+  <text x="265" y="482" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#FFFFFF" text-anchor="middle">B2:B9 → 1,240</text>
+
+  <!-- Whiteboard card (right) -->
+  <rect x="652" y="132" width="430" height="300" rx="28" fill="#191F28" opacity="0.10"/>
+  <rect x="640" y="118" width="430" height="300" rx="28" fill="#FFFFFF"/>
+  <rect x="672" y="152" width="110" height="90" rx="14" fill="#FFE8A3"/>
+  <rect x="800" y="152" width="110" height="90" rx="14" fill="#D6E8FF"/>
+  <rect x="928" y="152" width="110" height="90" rx="14" fill="#FFD6DA"/>
+  <rect x="688" y="172" width="70" height="10" rx="5" fill="#191F28" opacity="0.4"/>
+  <rect x="688" y="192" width="50" height="10" rx="5" fill="#191F28" opacity="0.3"/>
+  <rect x="816" y="172" width="70" height="10" rx="5" fill="#191F28" opacity="0.4"/>
+  <rect x="816" y="192" width="55" height="10" rx="5" fill="#191F28" opacity="0.3"/>
+  <rect x="944" y="172" width="70" height="10" rx="5" fill="#191F28" opacity="0.4"/>
+  <rect x="944" y="192" width="45" height="10" rx="5" fill="#191F28" opacity="0.3"/>
+  <!-- timeline -->
+  <line x1="690" y1="320" x2="1020" y2="320" stroke="#1B64DA" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="710" cy="320" r="14" fill="#3182F6"/>
+  <circle cx="850" cy="320" r="14" fill="#3182F6"/>
+  <circle cx="1000" cy="320" r="14" fill="#F04452"/>
+  <path d="M703 320 l5 6 l10 -12" stroke="#FFFFFF" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M843 320 l5 6 l10 -12" stroke="#FFFFFF" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="680" y="350" width="70" height="26" rx="13" fill="#EAF3FF"/>
+  <text x="715" y="369" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" fill="#1B64DA" text-anchor="middle">11/10</text>
+  <rect x="965" y="350" width="70" height="26" rx="13" fill="#FFE3E6"/>
+  <text x="1000" y="369" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" fill="#F04452" text-anchor="middle">11/19</text>
+
+  <!-- Meeting bubble (bottom right) -->
+  <rect x="690" y="478" width="380" height="110" rx="30" fill="#191F28" opacity="0.10"/>
+  <rect x="680" y="466" width="380" height="110" rx="30" fill="#191F28"/>
+  <path d="M720 576 l-10 34 l40 -34 z" fill="#191F28"/>
+  <circle cx="738" cy="521" r="26" fill="#3182F6"/>
+  <rect x="728" y="506" width="20" height="28" rx="10" fill="#FFFFFF"/>
+  <rect x="736" y="536" width="4" height="10" fill="#FFFFFF"/>
+  <rect x="784" y="500" width="200" height="14" rx="7" fill="#FFFFFF" opacity="0.9"/>
+  <rect x="784" y="526" width="150" height="14" rx="7" fill="#FFFFFF" opacity="0.5"/>
+  <circle cx="1018" cy="521" r="18" fill="#3FB950"/>
+  <path d="M1009 521 l6 7 l12 -14" stroke="#FFFFFF" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- beta chip -->
+  <rect x="116" y="74" width="150" height="48" rx="24" fill="#3182F6"/>
+  <text x="191" y="106" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">BETA</text>
+</svg>

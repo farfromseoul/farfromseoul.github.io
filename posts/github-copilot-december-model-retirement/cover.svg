@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EAF3FF"/>
+      <stop offset="1" stop-color="#D6E8FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1080" cy="110" r="150" fill="#3182F6" opacity="0.08"/>
+  <circle cx="120" cy="590" r="120" fill="#3182F6" opacity="0.08"/>
+
+  <!-- model picker card -->
+  <rect x="148" y="128" width="470" height="440" rx="32" fill="#191F28" opacity="0.10"/>
+  <rect x="136" y="114" width="470" height="440" rx="32" fill="#FFFFFF"/>
+  <rect x="136" y="114" width="470" height="76" rx="32" fill="#3182F6"/>
+  <rect x="136" y="160" width="470" height="30" fill="#3182F6"/>
+  <circle cx="180" cy="152" r="9" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="208" cy="152" r="9" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="236" cy="152" r="9" fill="#FFFFFF" opacity="0.35"/>
+  <rect x="300" y="138" width="270" height="28" rx="14" fill="#1B64DA"/>
+  <text x="435" y="158" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#FFFFFF" text-anchor="middle">model: ▾</text>
+
+  <!-- rows: retired (red, struck) -->
+  <g font-family="DejaVu Sans Mono, monospace" font-size="22">
+    <rect x="170" y="218" width="400" height="56" rx="16" fill="#FDECEE"/>
+    <circle cx="200" cy="246" r="10" fill="#F04452"/>
+    <rect x="226" y="236" width="230" height="20" rx="10" fill="#F04452" opacity="0.35"/>
+    <line x1="222" y1="246" x2="540" y2="246" stroke="#F04452" stroke-width="5" stroke-linecap="round"/>
+
+    <rect x="170" y="290" width="400" height="56" rx="16" fill="#FDECEE"/>
+    <circle cx="200" cy="318" r="10" fill="#F04452"/>
+    <rect x="226" y="308" width="180" height="20" rx="10" fill="#F04452" opacity="0.35"/>
+    <line x1="222" y1="318" x2="540" y2="318" stroke="#F04452" stroke-width="5" stroke-linecap="round"/>
+
+    <rect x="170" y="362" width="400" height="56" rx="16" fill="#E8F7EC"/>
+    <circle cx="200" cy="390" r="10" fill="#3FB950"/>
+    <rect x="226" y="380" width="250" height="20" rx="10" fill="#3FB950" opacity="0.45"/>
+    <path d="M512 390 l12 12 l22 -24" fill="none" stroke="#3FB950" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="170" y="434" width="400" height="56" rx="16" fill="#E8F7EC"/>
+    <circle cx="200" cy="462" r="10" fill="#3FB950"/>
+    <rect x="226" y="452" width="200" height="20" rx="10" fill="#3FB950" opacity="0.45"/>
+    <path d="M512 462 l12 12 l22 -24" fill="none" stroke="#3FB950" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <rect x="170" y="506" width="140" height="28" rx="14" fill="#191F28"/>
+  <text x="240" y="526" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#FFFFFF" text-anchor="middle">-6 models</text>
+
+  <!-- arrow -->
+  <path d="M650 334 h136" stroke="#1B64DA" stroke-width="14" stroke-linecap="round"/>
+  <path d="M752 302 l40 32 l-40 32" fill="none" stroke="#1B64DA" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- calendar -->
+  <rect x="842" y="182" width="250" height="260" rx="32" fill="#191F28" opacity="0.10"/>
+  <rect x="830" y="168" width="250" height="260" rx="32" fill="#FFFFFF"/>
+  <rect x="830" y="168" width="250" height="80" rx="32" fill="#F04452"/>
+  <rect x="830" y="218" width="250" height="30" fill="#F04452"/>
+  <rect x="880" y="148" width="18" height="46" rx="9" fill="#191F28"/>
+  <rect x="1012" y="148" width="18" height="46" rx="9" fill="#191F28"/>
+  <text x="955" y="226" font-family="DejaVu Sans, sans-serif" font-weight="bold" font-size="34" fill="#FFFFFF" text-anchor="middle">DEC</text>
+  <text x="955" y="378" font-family="DejaVu Sans, sans-serif" font-weight="bold" font-size="120" fill="#191F28" text-anchor="middle">14</text>
+
+  <!-- policy toggle chip -->
+  <rect x="838" y="478" width="250" height="72" rx="36" fill="#191F28" opacity="0.10"/>
+  <rect x="830" y="468" width="250" height="72" rx="36" fill="#FFFFFF"/>
+  <text x="870" y="514" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#191F28">policy</text>
+  <rect x="980" y="484" width="76" height="40" rx="20" fill="#3182F6"/>
+  <circle cx="1036" cy="504" r="15" fill="#FFFFFF"/>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EAF3FF"/>
+      <stop offset="1" stop-color="#D6E8FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1080" cy="110" r="160" fill="#FFFFFF" opacity="0.35"/>
+  <circle cx="120" cy="600" r="170" fill="#FFFFFF" opacity="0.3"/>
+
+  <!-- ground -->
+  <rect x="120" y="528" width="760" height="18" rx="9" fill="#191F28" opacity="0.08"/>
+
+  <!-- car shadow -->
+  <path d="M196 456 Q206 372 300 360 L380 288 Q410 262 460 262 L640 262 Q690 262 724 296 L790 360 Q866 370 876 456 L876 500 Q876 520 856 520 L216 520 Q196 520 196 500 Z" fill="#191F28" opacity="0.10"/>
+  <!-- car body -->
+  <path d="M180 440 Q190 356 284 344 L364 272 Q394 246 444 246 L624 246 Q674 246 708 280 L774 344 Q850 354 860 440 L860 484 Q860 504 840 504 L200 504 Q180 504 180 484 Z" fill="#3182F6"/>
+  <!-- windows -->
+  <path d="M310 344 L384 282 Q404 266 440 266 L510 266 L510 344 Z" fill="#EAF3FF"/>
+  <path d="M532 266 L620 266 Q656 266 680 290 L734 344 L532 344 Z" fill="#EAF3FF"/>
+  <!-- door line -->
+  <rect x="516" y="352" width="8" height="132" rx="4" fill="#1B64DA"/>
+  <rect x="440" y="384" width="54" height="12" rx="6" fill="#1B64DA"/>
+  <rect x="560" y="384" width="54" height="12" rx="6" fill="#1B64DA"/>
+  <!-- lights -->
+  <rect x="822" y="396" width="38" height="22" rx="10" fill="#FFC542"/>
+  <rect x="180" y="396" width="30" height="22" rx="10" fill="#F04452"/>
+  <!-- wheels -->
+  <circle cx="320" cy="506" r="58" fill="#191F28"/>
+  <circle cx="320" cy="506" r="24" fill="#8FB8FF"/>
+  <circle cx="724" cy="506" r="58" fill="#191F28"/>
+  <circle cx="724" cy="506" r="24" fill="#8FB8FF"/>
+
+  <!-- remote signal waves -->
+  <g fill="none" stroke="#F04452" stroke-width="10" stroke-linecap="round">
+    <path d="M610 200 Q640 170 670 200"/>
+    <path d="M588 172 Q640 120 692 172"/>
+  </g>
+
+  <!-- open padlock above car -->
+  <path d="M400 150 L400 112 A38 38 0 0 1 476 112" fill="none" stroke="#1B64DA" stroke-width="14" stroke-linecap="round"/>
+  <rect x="384" y="158" width="128" height="104" rx="22" fill="#191F28" opacity="0.10"/>
+  <rect x="372" y="146" width="128" height="104" rx="22" fill="#F04452"/>
+  <circle cx="436" cy="188" r="13" fill="#FFFFFF"/>
+  <rect x="430" y="192" width="12" height="30" rx="6" fill="#FFFFFF"/>
+
+  <!-- phone -->
+  <rect x="958" y="236" width="150" height="270" rx="28" fill="#191F28" opacity="0.10"/>
+  <rect x="944" y="222" width="150" height="270" rx="28" fill="#191F28"/>
+  <rect x="958" y="250" width="122" height="214" rx="16" fill="#FFFFFF"/>
+  <rect x="976" y="276" width="86" height="54" rx="14" fill="#3FB950"/>
+  <text x="1019" y="312" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">OPEN</text>
+  <rect x="976" y="346" width="86" height="54" rx="14" fill="#D6E8FF"/>
+  <text x="1019" y="382" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="bold" fill="#1B64DA">START</text>
+  <rect x="990" y="424" width="58" height="10" rx="5" fill="#8FB8FF"/>
+  <!-- phone to car dashes -->
+  <g fill="#3182F6">
+    <circle cx="880" cy="300" r="7"/>
+    <circle cx="906" cy="290" r="7"/>
+    <circle cx="932" cy="280" r="7"/>
+  </g>
+
+  <!-- code chips -->
+  <rect x="94" y="94" width="230" height="64" rx="32" fill="#191F28" opacity="0.10"/>
+  <rect x="84" y="84" width="230" height="64" rx="32" fill="#191F28"/>
+  <text x="199" y="126" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="28" font-weight="bold" fill="#F04452">admin:admin</text>
+
+  <rect x="704" y="94" width="170" height="64" rx="32" fill="#191F28" opacity="0.10"/>
+  <rect x="694" y="84" width="170" height="64" rx="32" fill="#FFFFFF"/>
+  <text x="779" y="126" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="28" font-weight="bold" fill="#191F28">/..%2f</text>
+
+  <rect x="954" y="560" width="160" height="64" rx="32" fill="#191F28" opacity="0.10"/>
+  <rect x="944" y="550" width="160" height="64" rx="32" fill="#3FB950"/>
+  <text x="1024" y="592" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF">fix ~2h</text>
+
+  <rect x="104" y="580" width="200" height="56" rx="28" fill="#FFFFFF"/>
+  <text x="204" y="617" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="24" font-weight="bold" fill="#1B64DA">MFA: skip?</text>
+</svg>

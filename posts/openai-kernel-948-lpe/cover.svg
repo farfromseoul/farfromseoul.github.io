@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EAF3FF"/>
+      <stop offset="1" stop-color="#D6E8FF"/>
+    </linearGradient>
+    <linearGradient id="slab" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4C93FF"/>
+      <stop offset="1" stop-color="#1B64DA"/>
+    </linearGradient>
+    <linearGradient id="slabTop" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7DB2FF"/>
+      <stop offset="1" stop-color="#5A9CFF"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#0B3D91" flood-opacity="0.18"/>
+    </filter>
+    <clipPath id="lens"><circle cx="0" cy="0" r="92"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1080" cy="560" r="200" fill="#FFFFFF" opacity="0.4"/>
+  <circle cx="140" cy="90" r="150" fill="#FFFFFF" opacity="0.45"/>
+
+  <!-- 커널 계층 (아이소메트릭 판 3장) -->
+  <g filter="url(#shadow)">
+    <!-- 아래 판 -->
+    <path d="M 300 500 L 560 600 L 820 500 L 560 400 Z" fill="url(#slabTop)"/>
+    <path d="M 300 500 L 300 530 L 560 630 L 560 600 Z" fill="#1B64DA"/>
+    <path d="M 820 500 L 820 530 L 560 630 L 560 600 Z" fill="#0B3D91"/>
+    <!-- 가운데 판 -->
+    <path d="M 300 400 L 560 500 L 820 400 L 560 300 Z" fill="url(#slabTop)"/>
+    <path d="M 300 400 L 300 430 L 560 530 L 560 500 Z" fill="#1B64DA"/>
+    <path d="M 820 400 L 820 430 L 560 530 L 560 500 Z" fill="#0B3D91"/>
+    <!-- 위 판 -->
+    <path d="M 300 300 L 560 400 L 820 300 L 560 200 Z" fill="url(#slabTop)"/>
+    <path d="M 300 300 L 300 330 L 560 430 L 560 400 Z" fill="#1B64DA"/>
+    <path d="M 820 300 L 820 330 L 560 430 L 560 400 Z" fill="#0B3D91"/>
+  </g>
+
+  <!-- 판 위 회로 선 -->
+  <g stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.55">
+    <path d="M 430 300 L 560 350 L 690 300"/>
+    <path d="M 480 280 L 560 250 L 640 280"/>
+  </g>
+
+  <!-- 버그 아이콘 (빨간 점) -->
+  <g fill="#F04452">
+    <circle cx="470" cy="318" r="13"/>
+    <circle cx="655" cy="270" r="13"/>
+    <circle cx="610" cy="335" r="13"/>
+  </g>
+  <!-- 패치(반창고) -->
+  <g transform="translate(520 292) rotate(-22)">
+    <rect x="-46" y="-17" width="92" height="34" rx="17" fill="#FFFFFF"/>
+    <rect x="-16" y="-17" width="32" height="34" fill="#FFE1A8"/>
+    <g fill="#E3B65C"><circle cx="-6" cy="-6" r="2.5"/><circle cx="6" cy="-6" r="2.5"/><circle cx="-6" cy="6" r="2.5"/><circle cx="6" cy="6" r="2.5"/></g>
+  </g>
+
+  <!-- AI 돋보기 -->
+  <g transform="translate(860 230)" filter="url(#shadow)">
+    <rect x="58" y="70" width="36" height="150" rx="18" transform="rotate(-38 76 145)" fill="#191F28"/>
+    <circle cx="0" cy="0" r="106" fill="#FFFFFF"/>
+    <circle cx="0" cy="0" r="92" fill="#EAF3FF"/>
+    <g clip-path="url(#lens)">
+      <!-- 렌즈 안: 확대된 버그 -->
+      <circle cx="-8" cy="10" r="34" fill="#F04452"/>
+      <g stroke="#F04452" stroke-width="7" stroke-linecap="round">
+        <line x1="-42" y1="-6" x2="-64" y2="-20"/><line x1="-42" y1="22" x2="-66" y2="30"/>
+        <line x1="26" y1="-6" x2="48" y2="-20"/><line x1="26" y1="22" x2="50" y2="30"/>
+        <line x1="-20" y1="-22" x2="-30" y2="-44"/><line x1="4" y1="-22" x2="14" y2="-44"/>
+      </g>
+      <line x1="-8" y1="-24" x2="-8" y2="44" stroke="#FFFFFF" stroke-width="5" opacity="0.7"/>
+    </g>
+    <!-- AI 반짝임 -->
+    <path d="M 72 -96 l 10 26 l 26 10 l -26 10 l -10 26 l -10 -26 l -26 -10 l 26 -10 Z" fill="#3182F6"/>
+    <path d="M 112 -40 l 5 12 l 12 5 l -12 5 l -5 12 l -5 -12 l -12 -5 l 12 -5 Z" fill="#7DB2FF"/>
+  </g>
+
+  <!-- 카운터 배지 -->
+  <g transform="translate(90 470)">
+    <rect y="14" width="250" height="128" rx="28" fill="#0B3D91" opacity="0.12"/>
+    <rect width="250" height="128" rx="28" fill="#191F28"/>
+    <text x="125" y="72" text-anchor="middle" font-family="'JetBrains Mono', 'DejaVu Sans Mono', monospace" font-size="60" font-weight="700" fill="#FFFFFF">948</text>
+    <text x="125" y="106" text-anchor="middle" font-family="'JetBrains Mono', 'DejaVu Sans Mono', monospace" font-size="20" fill="#3FB950">paths to root</text>
+  </g>
+
+  <!-- $ root 프롬프트 칩 -->
+  <g transform="translate(150 170)">
+    <rect y="10" width="196" height="56" rx="28" fill="#0B3D91" opacity="0.10"/>
+    <rect width="196" height="56" rx="28" fill="#FFFFFF"/>
+    <text x="98" y="37" text-anchor="middle" font-family="'JetBrains Mono', 'DejaVu Sans Mono', monospace" font-size="24" font-weight="700" fill="#191F28"><tspan fill="#F04452">#</tspan> whoami</text>
+  </g>
+</svg>

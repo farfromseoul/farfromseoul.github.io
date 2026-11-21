@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EAF3FF"/>
+      <stop offset="1" stop-color="#D6E8FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1080" cy="110" r="130" fill="#FFFFFF" opacity="0.45"/>
+  <circle cx="110" cy="590" r="150" fill="#FFFFFF" opacity="0.4"/>
+
+  <!-- laptop shadow -->
+  <rect x="148" y="168" width="520" height="340" rx="28" fill="#191F28" opacity="0.10"/>
+  <ellipse cx="420" cy="560" rx="330" ry="26" fill="#191F28" opacity="0.10"/>
+  <!-- laptop screen -->
+  <rect x="140" y="150" width="520" height="340" rx="28" fill="#191F28"/>
+  <rect x="164" y="174" width="472" height="292" rx="16" fill="#1B64DA"/>
+  <!-- lock icon -->
+  <rect x="370" y="228" width="60" height="48" rx="10" fill="#FFFFFF"/>
+  <path d="M382 230 v-14 a18 18 0 0 1 36 0 v14" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="400" cy="250" r="7" fill="#1B64DA"/>
+  <!-- PIN dots -->
+  <g fill="#FFFFFF">
+    <rect x="292" y="304" width="216" height="58" rx="29" opacity="0.2"/>
+    <circle cx="334" cy="333" r="11"/>
+    <circle cx="378" cy="333" r="11"/>
+    <circle cx="422" cy="333" r="11"/>
+    <circle cx="466" cy="333" r="11"/>
+  </g>
+  <rect x="298" y="390" width="204" height="44" rx="22" fill="#F04452"/>
+  <text x="400" y="420" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">tries: 0 / 32</text>
+  <!-- laptop base -->
+  <path d="M100 490 h600 l-30 46 h-540 z" fill="#3182F6"/>
+  <rect x="350" y="490" width="100" height="12" rx="6" fill="#1B64DA"/>
+
+  <!-- chip shadow -->
+  <rect x="808" y="268" width="250" height="190" rx="26" fill="#191F28" opacity="0.12"/>
+  <!-- flash chip -->
+  <g fill="#9AA4B2">
+    <rect x="830" y="246" width="16" height="30" rx="5"/><rect x="876" y="246" width="16" height="30" rx="5"/><rect x="922" y="246" width="16" height="30" rx="5"/><rect x="968" y="246" width="16" height="30" rx="5"/>
+    <rect x="830" y="436" width="16" height="30" rx="5"/><rect x="876" y="436" width="16" height="30" rx="5"/><rect x="922" y="436" width="16" height="30" rx="5"/><rect x="968" y="436" width="16" height="30" rx="5"/>
+  </g>
+  <rect x="798" y="258" width="250" height="190" rx="26" fill="#191F28"/>
+  <circle cx="826" cy="286" r="8" fill="#3182F6"/>
+  <text x="923" y="340" font-family="DejaVu Sans Mono, monospace" font-size="30" font-weight="700" fill="#FFFFFF" text-anchor="middle">SPI</text>
+  <text x="923" y="378" font-family="DejaVu Sans Mono, monospace" font-size="24" fill="#8FC1FF" text-anchor="middle">fTPM state</text>
+  <!-- rewind arrow -->
+  <path d="M1010 490 Q923 590 850 500" fill="none" stroke="#F04452" stroke-width="14" stroke-linecap="round"/>
+  <path d="M832 478 l40 10 l-22 30 z" fill="#F04452"/>
+  <rect x="860" y="572" width="128" height="42" rx="21" fill="#F04452"/>
+  <text x="924" y="601" font-family="DejaVu Sans Mono, monospace" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">rollback</text>
+
+  <!-- chips -->
+  <rect x="760" y="120" width="170" height="54" rx="27" fill="#FFFFFF"/>
+  <text x="845" y="156" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="700" fill="#F04452" text-anchor="middle">4자리 40h</text>
+  <rect x="950" y="160" width="190" height="54" rx="27" fill="#3FB950"/>
+  <text x="1045" y="196" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">PIN 6+ ✓</text>
+  <rect x="140" y="80" width="250" height="50" rx="25" fill="#191F28"/>
+  <text x="265" y="114" font-family="DejaVu Sans Mono, monospace" font-size="24" fill="#FFFFFF" text-anchor="middle">CVE-2026-43613</text>
+</svg>

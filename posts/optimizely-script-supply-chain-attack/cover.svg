@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EAF3FF"/><stop offset="1" stop-color="#D6E8FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1080" cy="110" r="90" fill="#FFFFFF" opacity="0.45"/>
+  <circle cx="120" cy="600" r="120" fill="#FFFFFF" opacity="0.4"/>
+
+  <!-- CDN server (left) -->
+  <rect x="98" y="218" width="250" height="300" rx="28" fill="#191F28" opacity="0.12"/>
+  <rect x="90" y="206" width="250" height="300" rx="28" fill="#1B64DA"/>
+  <rect x="120" y="240" width="190" height="56" rx="14" fill="#3182F6"/>
+  <rect x="120" y="314" width="190" height="56" rx="14" fill="#3182F6"/>
+  <rect x="120" y="388" width="190" height="56" rx="14" fill="#3182F6"/>
+  <circle cx="148" cy="268" r="9" fill="#3FB950"/>
+  <circle cx="148" cy="342" r="9" fill="#3FB950"/>
+  <circle cx="148" cy="416" r="9" fill="#F04452"/>
+  <rect x="172" y="262" width="110" height="12" rx="6" fill="#EAF3FF" opacity="0.8"/>
+  <rect x="172" y="336" width="110" height="12" rx="6" fill="#EAF3FF" opacity="0.8"/>
+  <rect x="172" y="410" width="110" height="12" rx="6" fill="#EAF3FF" opacity="0.8"/>
+  <rect x="140" y="462" width="150" height="30" rx="15" fill="#191F28"/>
+  <text x="215" y="483" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#FFFFFF" text-anchor="middle">CDN</text>
+
+  <!-- dashed flow arrow -->
+  <path d="M352 356 C 420 356, 440 330, 500 330" stroke="#191F28" stroke-width="6" fill="none" stroke-dasharray="14 12" stroke-linecap="round"/>
+  <path d="M492 314 L 516 330 L 492 346 Z" fill="#191F28"/>
+
+  <!-- script chip with bug -->
+  <rect x="362" y="250" width="150" height="46" rx="23" fill="#F04452"/>
+  <text x="437" y="280" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#FFFFFF" text-anchor="middle">&lt;script&gt;</text>
+
+  <!-- browser window -->
+  <rect x="540" y="142" width="580" height="420" rx="30" fill="#191F28" opacity="0.12"/>
+  <rect x="530" y="130" width="580" height="420" rx="30" fill="#FFFFFF"/>
+  <path d="M530 160 a30 30 0 0 1 30 -30 h520 a30 30 0 0 1 30 30 v30 h-580 z" fill="#191F28"/>
+  <circle cx="566" cy="160" r="8" fill="#F04452"/>
+  <circle cx="592" cy="160" r="8" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="618" cy="160" r="8" fill="#3FB950"/>
+  <rect x="650" y="148" width="420" height="24" rx="12" fill="#FFFFFF" opacity="0.18"/>
+
+  <!-- page content: credit card -->
+  <rect x="572" y="226" width="260" height="160" rx="22" fill="#3182F6"/>
+  <rect x="572" y="262" width="260" height="30" fill="#1B64DA"/>
+  <rect x="596" y="314" width="56" height="40" rx="8" fill="#EAF3FF"/>
+  <rect x="668" y="324" width="140" height="12" rx="6" fill="#EAF3FF" opacity="0.8"/>
+  <rect x="668" y="344" width="90" height="12" rx="6" fill="#EAF3FF" opacity="0.6"/>
+
+  <!-- bug on card -->
+  <g transform="translate(-10,34)">
+  <ellipse cx="820" cy="246" rx="38" ry="44" fill="#F04452"/>
+  <circle cx="820" cy="198" r="22" fill="#F04452"/>
+  <line x1="810" y1="180" x2="798" y2="160" stroke="#F04452" stroke-width="6" stroke-linecap="round"/>
+  <line x1="830" y1="180" x2="842" y2="160" stroke="#F04452" stroke-width="6" stroke-linecap="round"/>
+  <line x1="784" y1="232" x2="760" y2="222" stroke="#F04452" stroke-width="6" stroke-linecap="round"/>
+  <line x1="784" y1="258" x2="760" y2="266" stroke="#F04452" stroke-width="6" stroke-linecap="round"/>
+  <line x1="856" y1="232" x2="880" y2="222" stroke="#F04452" stroke-width="6" stroke-linecap="round"/>
+  <line x1="856" y1="258" x2="880" y2="266" stroke="#F04452" stroke-width="6" stroke-linecap="round"/>
+  <line x1="820" y1="210" x2="820" y2="288" stroke="#FFFFFF" stroke-width="4" opacity="0.7"/>
+  <circle cx="812" cy="194" r="4" fill="#FFFFFF"/>
+  <circle cx="828" cy="194" r="4" fill="#FFFFFF"/>
+
+  </g>
+  <!-- coin with swap arrows -->
+  <circle cx="990" cy="300" r="66" fill="#1B64DA"/>
+  <circle cx="990" cy="300" r="48" fill="#3182F6"/>
+  <text x="990" y="318" font-family="DejaVu Sans, sans-serif" font-size="50" font-weight="bold" fill="#FFFFFF" text-anchor="middle">₿</text>
+  <path d="M920 220 q 70 -50 140 0" stroke="#F04452" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M1052 206 l 14 18 l -22 4 z" fill="#F04452"/>
+
+  <!-- shield CSP chip -->
+  <rect x="572" y="420" width="200" height="96" rx="20" fill="#EAF3FF"/>
+  <path d="M612 440 l 26 -8 l 26 8 v 24 q 0 22 -26 34 q -26 -12 -26 -34 z" fill="#3FB950"/>
+  <path d="M626 464 l 9 9 l 16 -18" stroke="#FFFFFF" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="716" y="476" font-family="DejaVu Sans Mono, monospace" font-size="22" font-weight="bold" fill="#191F28" text-anchor="middle">CSP</text>
+
+  <!-- number chip -->
+  <rect x="800" y="420" width="280" height="96" rx="20" fill="#191F28"/>
+  <text x="940" y="462" font-family="DejaVu Sans, sans-serif" font-size="34" font-weight="bold" fill="#FFFFFF" text-anchor="middle">178 sites</text>
+  <text x="940" y="496" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#9EC5FF" text-anchor="middle">3rd-party JS</text>
+</svg>

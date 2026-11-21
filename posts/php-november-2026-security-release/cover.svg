@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EAF3FF"/><stop offset="1" stop-color="#D6E8FF"/></linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1080" cy="110" r="150" fill="#3182F6" opacity="0.08"/>
+  <circle cx="120" cy="600" r="180" fill="#1B64DA" opacity="0.07"/>
+  <!-- server -->
+  <rect x="198" y="168" width="400" height="420" rx="36" fill="#191F28" opacity="0.12"/>
+  <rect x="180" y="150" width="400" height="420" rx="36" fill="#191F28"/>
+  <g>
+    <rect x="215" y="190" width="330" height="100" rx="20" fill="#2B3440"/>
+    <circle cx="255" cy="240" r="12" fill="#3FB950"/><circle cx="295" cy="240" r="12" fill="#3FB950"/>
+    <rect x="335" y="228" width="170" height="24" rx="12" fill="#3182F6"/>
+    <rect x="215" y="310" width="330" height="100" rx="20" fill="#2B3440"/>
+    <circle cx="255" cy="360" r="12" fill="#F04452"/><circle cx="295" cy="360" r="12" fill="#3FB950"/>
+    <rect x="335" y="348" width="120" height="24" rx="12" fill="#3182F6"/>
+    <rect x="215" y="430" width="330" height="100" rx="20" fill="#2B3440"/>
+    <circle cx="255" cy="480" r="12" fill="#3FB950"/><circle cx="295" cy="480" r="12" fill="#3FB950"/>
+    <rect x="335" y="468" width="150" height="24" rx="12" fill="#3182F6"/>
+  </g>
+  <text x="380" y="130" font-family="DejaVu Sans Mono, monospace" font-size="40" font-weight="bold" fill="#191F28" text-anchor="middle">&lt;?php</text>
+  <!-- session file -->
+  <rect x="668" y="188" width="230" height="290" rx="28" fill="#191F28" opacity="0.10"/>
+  <rect x="650" y="170" width="230" height="290" rx="28" fill="#FFFFFF"/>
+  <rect x="680" y="205" width="110" height="22" rx="11" fill="#1B64DA"/>
+  <rect x="680" y="250" width="170" height="16" rx="8" fill="#D6E8FF"/>
+  <rect x="680" y="282" width="140" height="16" rx="8" fill="#D6E8FF"/>
+  <rect x="680" y="314" width="90" height="16" rx="8" fill="#F04452"/>
+  <rect x="780" y="314" width="70" height="16" rx="8" fill="#D6E8FF"/>
+  <rect x="680" y="346" width="160" height="16" rx="8" fill="#D6E8FF"/>
+  <text x="765" y="420" font-family="DejaVu Sans Mono, monospace" font-size="26" fill="#191F28" text-anchor="middle">$_SESSION</text>
+  <!-- shield -->
+  <path d="M968 268 L1068 228 L1168 268 L1168 368 Q1168 448 1068 498 Q968 448 968 368 Z" fill="#191F28" opacity="0.10" transform="translate(-8 14)"/>
+  <path d="M960 254 L1060 214 L1160 254 L1160 354 Q1160 434 1060 484 Q960 434 960 354 Z" fill="#3182F6"/>
+  <path d="M1012 344 L1048 380 L1112 306" fill="none" stroke="#FFFFFF" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- chips -->
+  <g font-family="DejaVu Sans Mono, monospace" font-size="28" font-weight="bold">
+    <rect x="640" y="510" width="210" height="56" rx="28" fill="#F04452"/>
+    <text x="745" y="548" fill="#FFFFFF" text-anchor="middle">CVSS 9.2</text>
+    <rect x="870" y="510" width="230" height="56" rx="28" fill="#3FB950"/>
+    <text x="985" y="548" fill="#FFFFFF" text-anchor="middle">8.4.28 ✓</text>
+    <rect x="640" y="586" width="460" height="56" rx="28" fill="#FFFFFF"/>
+    <text x="870" y="623" fill="#1B64DA" text-anchor="middle" font-size="24">fastcgi_keep_conn off;</text>
+    <rect x="180" y="600" width="400" height="48" rx="24" fill="#1B64DA"/>
+    <text x="380" y="633" fill="#FFFFFF" text-anchor="middle" font-size="24">php-fpm restart</text>
+  </g>
+</svg>

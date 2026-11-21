@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EAF3FF"/>
+      <stop offset="1" stop-color="#D6E8FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1090" cy="100" r="150" fill="#FFFFFF" opacity="0.35"/>
+  <circle cx="110" cy="610" r="170" fill="#FFFFFF" opacity="0.3"/>
+
+  <!-- ticket stack (left) -->
+  <g>
+    <rect x="112" y="162" width="230" height="104" rx="20" fill="#191F28" opacity="0.10"/>
+    <rect x="96" y="146" width="230" height="104" rx="20" fill="#FFFFFF"/>
+    <rect x="96" y="146" width="14" height="104" rx="7" fill="#F04452"/>
+    <rect x="130" y="172" width="70" height="22" rx="11" fill="#FFE1E4"/>
+    <rect x="130" y="210" width="160" height="12" rx="6" fill="#191F28"/>
+    <rect x="130" y="234" width="120" height="10" rx="5" fill="#B0C4DE"/>
+  </g>
+  <g>
+    <rect x="112" y="302" width="230" height="104" rx="20" fill="#191F28" opacity="0.10"/>
+    <rect x="96" y="286" width="230" height="104" rx="20" fill="#FFFFFF"/>
+    <rect x="96" y="286" width="14" height="104" rx="7" fill="#3182F6"/>
+    <rect x="130" y="312" width="70" height="22" rx="11" fill="#D6E8FF"/>
+    <rect x="130" y="350" width="150" height="12" rx="6" fill="#191F28"/>
+    <rect x="130" y="374" width="100" height="10" rx="5" fill="#B0C4DE"/>
+  </g>
+  <g>
+    <rect x="112" y="442" width="230" height="104" rx="20" fill="#191F28" opacity="0.10"/>
+    <rect x="96" y="426" width="230" height="104" rx="20" fill="#FFFFFF"/>
+    <rect x="96" y="426" width="14" height="104" rx="7" fill="#3FB950"/>
+    <rect x="130" y="452" width="70" height="22" rx="11" fill="#DDF4E3"/>
+    <rect x="130" y="490" width="170" height="12" rx="6" fill="#191F28"/>
+    <rect x="130" y="514" width="110" height="10" rx="5" fill="#B0C4DE"/>
+  </g>
+
+  <!-- arrow -->
+  <path d="M352 356 L420 356" stroke="#3182F6" stroke-width="12" stroke-linecap="round"/>
+  <path d="M414 336 L440 356 L414 376 Z" fill="#3182F6"/>
+
+  <!-- answer sheet (center) -->
+  <rect x="486" y="140" width="300" height="420" rx="32" fill="#191F28" opacity="0.10"/>
+  <rect x="470" y="120" width="300" height="420" rx="32" fill="#FFFFFF"/>
+  <rect x="470" y="120" width="300" height="70" rx="32" fill="#1B64DA"/>
+  <rect x="470" y="160" width="300" height="30" fill="#1B64DA"/>
+  <text x="620" y="167" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="bold" fill="#FFFFFF" text-anchor="middle">pick 1 of 20</text>
+  <!-- rows of bubbles -->
+  <g font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#191F28">
+    <rect x="500" y="222" width="90" height="14" rx="7" fill="#B0C4DE"/>
+    <circle cx="630" cy="229" r="15" fill="none" stroke="#B0C4DE" stroke-width="4"/>
+    <circle cx="676" cy="229" r="15" fill="none" stroke="#B0C4DE" stroke-width="4"/>
+    <circle cx="722" cy="229" r="15" fill="none" stroke="#B0C4DE" stroke-width="4"/>
+
+    <rect x="500" y="282" width="90" height="14" rx="7" fill="#191F28"/>
+    <circle cx="630" cy="289" r="15" fill="none" stroke="#B0C4DE" stroke-width="4"/>
+    <circle cx="676" cy="289" r="17" fill="#3182F6"/>
+    <circle cx="722" cy="289" r="15" fill="none" stroke="#B0C4DE" stroke-width="4"/>
+
+    <rect x="500" y="342" width="80" height="14" rx="7" fill="#B0C4DE"/>
+    <circle cx="630" cy="349" r="15" fill="none" stroke="#B0C4DE" stroke-width="4"/>
+    <circle cx="676" cy="349" r="15" fill="none" stroke="#B0C4DE" stroke-width="4"/>
+    <circle cx="722" cy="349" r="15" fill="none" stroke="#B0C4DE" stroke-width="4"/>
+  </g>
+  <!-- probability bar -->
+  <rect x="500" y="404" width="240" height="22" rx="11" fill="#EAF3FF"/>
+  <rect x="500" y="404" width="200" height="22" rx="11" fill="#3FB950"/>
+  <text x="500" y="470" font-family="DejaVu Sans Mono, monospace" font-size="24" fill="#191F28">p(label)</text>
+  <rect x="500" y="490" width="150" height="34" rx="17" fill="#EAF3FF"/>
+  <text x="575" y="514" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#1B64DA" text-anchor="middle">1 token</text>
+
+  <!-- cost chips (right) -->
+  <rect x="842" y="176" width="270" height="96" rx="24" fill="#191F28" opacity="0.10"/>
+  <rect x="830" y="160" width="270" height="96" rx="24" fill="#FFFFFF"/>
+  <text x="965" y="198" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#8B95A1" text-anchor="middle">LLM / 1M</text>
+  <text x="965" y="236" font-family="DejaVu Sans Mono, monospace" font-size="32" font-weight="bold" fill="#F04452" text-anchor="middle">$22,200</text>
+  <line x1="890" y1="225" x2="1040" y2="225" stroke="#F04452" stroke-width="5" stroke-linecap="round"/>
+
+  <rect x="842" y="306" width="270" height="96" rx="24" fill="#191F28" opacity="0.10"/>
+  <rect x="830" y="290" width="270" height="96" rx="24" fill="#FFFFFF"/>
+  <text x="965" y="328" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#8B95A1" text-anchor="middle">decider / 1M</text>
+  <text x="965" y="366" font-family="DejaVu Sans Mono, monospace" font-size="32" font-weight="bold" fill="#1B64DA" text-anchor="middle">$500</text>
+
+  <rect x="842" y="436" width="270" height="96" rx="48" fill="#191F28" opacity="0.10"/>
+  <rect x="830" y="420" width="270" height="96" rx="48" fill="#3FB950"/>
+  <text x="965" y="482" font-family="DejaVu Sans Mono, monospace" font-size="44" font-weight="bold" fill="#FFFFFF" text-anchor="middle">−98%</text>
+
+  <!-- code chip bottom -->
+  <rect x="470" y="580" width="300" height="50" rx="25" fill="#191F28"/>
+  <text x="620" y="613" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#FFFFFF" text-anchor="middle">mode: <tspan fill="#3FB950">DECIDER</tspan></text>
+</svg>

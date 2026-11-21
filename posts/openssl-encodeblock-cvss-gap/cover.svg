@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EAF3FF"/><stop offset="1" stop-color="#D6E8FF"/>
+    </linearGradient>
+    <linearGradient id="sh" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3182F6"/><stop offset="1" stop-color="#1B64DA"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1080" cy="110" r="70" fill="#FFFFFF" opacity="0.5"/>
+  <circle cx="130" cy="580" r="90" fill="#FFFFFF" opacity="0.45"/>
+
+  <!-- gauge card -->
+  <rect x="128" y="168" width="520" height="380" rx="36" fill="#191F28" opacity="0.10"/>
+  <rect x="116" y="152" width="520" height="380" rx="36" fill="#FFFFFF"/>
+  <!-- gauge arcs -->
+  <path d="M 216 412 A 160 160 0 0 1 296 273" stroke="#3FB950" stroke-width="34" fill="none" stroke-linecap="round"/>
+  <path d="M 322 254 A 160 160 0 0 1 430 254" stroke="#3182F6" stroke-width="34" fill="none" stroke-linecap="round"/>
+  <path d="M 456 273 A 160 160 0 0 1 536 412" stroke="#F04452" stroke-width="34" fill="none" stroke-linecap="round"/>
+  <!-- needles -->
+  <line x1="376" y1="412" x2="500" y2="330" stroke="#F04452" stroke-width="10" stroke-linecap="round" stroke-dasharray="4 18" opacity="0.7"/>
+  <line x1="376" y1="412" x2="268" y2="330" stroke="#191F28" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="376" cy="412" r="22" fill="#191F28"/>
+  <!-- chips under gauge -->
+  <rect x="176" y="458" width="150" height="52" rx="26" fill="#3FB950"/>
+  <text x="251" y="493" font-family="DejaVu Sans, sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF" text-anchor="middle">LOW</text>
+  <rect x="426" y="458" width="150" height="52" rx="26" fill="#FFE5E8"/>
+  <text x="501" y="494" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="bold" fill="#F04452" text-anchor="middle" text-decoration="line-through">9.8</text>
+
+  <!-- shield + lock -->
+  <path d="M 862 150 L 1010 200 L 1010 330 Q 1010 450 862 520 Q 714 450 714 330 L 714 200 Z" fill="#191F28" opacity="0.10" transform="translate(12 14)"/>
+  <path d="M 862 150 L 1010 200 L 1010 330 Q 1010 450 862 520 Q 714 450 714 330 L 714 200 Z" fill="url(#sh)"/>
+  <rect x="812" y="300" width="100" height="90" rx="18" fill="#FFFFFF"/>
+  <path d="M 830 300 L 830 270 Q 830 236 862 236 Q 894 236 894 270 L 894 300" stroke="#FFFFFF" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <circle cx="862" cy="336" r="12" fill="#191F28"/>
+  <rect x="856" y="340" width="12" height="28" rx="6" fill="#191F28"/>
+
+  <!-- code chips -->
+  <rect x="690" y="560" width="300" height="56" rx="28" fill="#191F28"/>
+  <text x="840" y="596" font-family="DejaVu Sans Mono, monospace" font-size="24" fill="#EAF3FF" text-anchor="middle">EVP_EncodeBlock()</text>
+  <rect x="1020" y="250" width="140" height="52" rx="26" fill="#FFFFFF"/>
+  <text x="1090" y="284" font-family="DejaVu Sans Mono, monospace" font-size="24" fill="#1B64DA" text-anchor="middle">base64</text>
+  <rect x="1010" y="400" width="160" height="52" rx="26" fill="#FFFFFF"/>
+  <text x="1090" y="434" font-family="DejaVu Sans Mono, monospace" font-size="24" fill="#F04452" text-anchor="middle">INT_MAX</text>
+  <rect x="150" y="70" width="230" height="52" rx="26" fill="#191F28"/>
+  <text x="265" y="104" font-family="DejaVu Sans Mono, monospace" font-size="24" fill="#FFFFFF" text-anchor="middle">CVSS 5.9</text>
+</svg>

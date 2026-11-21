@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EAF3FF"/><stop offset="1" stop-color="#D6E8FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1090" cy="100" r="90" fill="#3182F6" opacity="0.08"/>
+  <circle cx="110" cy="600" r="120" fill="#3182F6" opacity="0.07"/>
+
+  <!-- server card -->
+  <rect x="132" y="142" width="520" height="430" rx="28" fill="#191F28" opacity="0.10"/>
+  <rect x="120" y="128" width="520" height="430" rx="28" fill="#FFFFFF"/>
+  <rect x="120" y="128" width="520" height="64" rx="28" fill="#191F28"/>
+  <rect x="120" y="164" width="520" height="28" fill="#191F28"/>
+  <circle cx="160" cy="160" r="9" fill="#F04452"/>
+  <circle cx="188" cy="160" r="9" fill="#FFC542"/>
+  <circle cx="216" cy="160" r="9" fill="#3FB950"/>
+  <text x="600" y="168" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#9DBCE6" text-anchor="end">llm-gateway</text>
+  <!-- rack units -->
+  <g>
+    <rect x="152" y="220" width="456" height="70" rx="16" fill="#F4F8FF"/>
+    <circle cx="186" cy="255" r="10" fill="#3FB950"/>
+    <rect x="212" y="248" width="180" height="14" rx="7" fill="#9DBCE6"/>
+    <rect x="152" y="306" width="456" height="70" rx="16" fill="#F4F8FF"/>
+    <circle cx="186" cy="341" r="10" fill="#3FB950"/>
+    <rect x="212" y="334" width="140" height="14" rx="7" fill="#9DBCE6"/>
+    <rect x="152" y="392" width="456" height="70" rx="16" fill="#FFF1F2"/>
+    <circle cx="186" cy="427" r="10" fill="#F04452"/>
+    <text x="212" y="435" font-family="DejaVu Sans Mono, monospace" font-size="21" fill="#191F28">API_KEY=sk-••••••</text>
+  </g>
+  <rect x="152" y="484" width="220" height="16" rx="8" fill="#D6E8FF"/>
+  <rect x="152" y="512" width="150" height="16" rx="8" fill="#D6E8FF"/>
+
+  <!-- key leaving the server -->
+  <g transform="translate(560,420) rotate(-20)">
+    <rect x="6" y="8" width="170" height="34" rx="17" fill="#191F28" opacity="0.12"/>
+    <circle cx="30" cy="25" r="34" fill="#191F28" opacity="0.12" transform="translate(6,8)"/>
+    <circle cx="30" cy="25" r="34" fill="#FFC542"/>
+    <circle cx="30" cy="25" r="13" fill="#FFF7DE"/>
+    <rect x="56" y="15" width="120" height="20" rx="10" fill="#FFC542"/>
+    <rect x="140" y="30" width="14" height="22" rx="5" fill="#FFC542"/>
+    <rect x="116" y="30" width="14" height="16" rx="5" fill="#FFC542"/>
+  </g>
+
+  <!-- agent network with magnifier -->
+  <g>
+    <line x1="880" y1="250" x2="790" y2="370" stroke="#1B64DA" stroke-width="6" stroke-linecap="round"/>
+    <line x1="880" y1="250" x2="990" y2="380" stroke="#1B64DA" stroke-width="6" stroke-linecap="round"/>
+    <line x1="790" y1="370" x2="990" y2="380" stroke="#1B64DA" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
+    <circle cx="888" cy="258" r="52" fill="#191F28" opacity="0.10"/>
+    <circle cx="880" cy="250" r="52" fill="#3182F6"/>
+    <rect x="852" y="232" width="56" height="38" rx="12" fill="#FFFFFF"/>
+    <circle cx="868" cy="251" r="6" fill="#191F28"/>
+    <circle cx="892" cy="251" r="6" fill="#191F28"/>
+    <circle cx="796" cy="376" r="38" fill="#191F28" opacity="0.10"/>
+    <circle cx="790" cy="370" r="38" fill="#1B64DA"/>
+    <rect x="770" y="358" width="40" height="26" rx="9" fill="#FFFFFF"/>
+    <circle cx="782" cy="371" r="4.5" fill="#191F28"/>
+    <circle cx="798" cy="371" r="4.5" fill="#191F28"/>
+    <circle cx="996" cy="386" r="38" fill="#191F28" opacity="0.10"/>
+    <circle cx="990" cy="380" r="38" fill="#1B64DA"/>
+    <rect x="970" y="368" width="40" height="26" rx="9" fill="#FFFFFF"/>
+    <circle cx="982" cy="381" r="4.5" fill="#191F28"/>
+    <circle cx="998" cy="381" r="4.5" fill="#191F28"/>
+    <!-- magnifier -->
+    <circle cx="1010" cy="510" r="56" fill="#191F28" opacity="0.10" transform="translate(6,8)"/>
+    <line x1="1050" y1="550" x2="1100" y2="600" stroke="#191F28" stroke-width="22" stroke-linecap="round"/>
+    <circle cx="1010" cy="510" r="56" fill="#FFFFFF" stroke="#191F28" stroke-width="12"/>
+    <text x="1010" y="522" font-family="DejaVu Sans Mono, monospace" font-size="30" font-weight="700" fill="#F04452" text-anchor="middle">sk-</text>
+  </g>
+
+  <!-- chips -->
+  <g font-family="DejaVu Sans Mono, monospace" font-weight="700">
+    <rect x="760" y="72" width="260" height="52" rx="26" fill="#191F28"/>
+    <text x="890" y="106" font-size="21" fill="#FFFFFF" text-anchor="middle">0.0.0.0/0 :8080</text>
+    <rect x="700" y="580" width="250" height="50" rx="25" fill="#FFFFFF"/>
+    <text x="825" y="613" font-size="20" fill="#F04452" text-anchor="middle">admin : admin</text>
+    <rect x="120" y="590" width="240" height="46" rx="23" fill="#3182F6"/>
+    <text x="240" y="620" font-size="19" fill="#FFFFFF" text-anchor="middle">rotate keys ✓</text>
+  </g>
+</svg>

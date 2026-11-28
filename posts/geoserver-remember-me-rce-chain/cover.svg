@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EAF3FF"/>
+      <stop offset="1" stop-color="#D6E8FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+
+  <!-- folded map -->
+  <g transform="translate(140,150)">
+    <rect x="12" y="18" width="480" height="360" rx="28" fill="#191F28" opacity="0.10"/>
+    <path d="M0 20 Q0 0 20 0 L160 0 L160 360 L20 360 Q0 360 0 340 Z" fill="#FFFFFF"/>
+    <rect x="160" y="0" width="160" height="360" fill="#F3F8FF"/>
+    <path d="M320 0 L460 0 Q480 0 480 20 L480 340 Q480 360 460 360 L320 360 Z" fill="#FFFFFF"/>
+    <!-- roads -->
+    <path d="M30 300 C120 240 200 260 260 190 S400 90 450 60" stroke="#3182F6" stroke-width="14" fill="none" stroke-linecap="round" opacity="0.35"/>
+    <path d="M40 90 C140 120 220 80 300 140 S420 260 460 300" stroke="#1B64DA" stroke-width="8" fill="none" stroke-linecap="round" stroke-dasharray="2 22" opacity="0.6"/>
+    <circle cx="110" cy="230" r="10" fill="#3FB950"/>
+    <circle cx="380" cy="110" r="10" fill="#3FB950"/>
+    <!-- pin -->
+    <ellipse cx="262" cy="214" rx="38" ry="10" fill="#191F28" opacity="0.18"/>
+    <path d="M262 210 C222 160 202 130 202 104 A60 60 0 0 1 322 104 C322 130 302 160 262 210 Z" fill="#F04452"/>
+    <circle cx="262" cy="104" r="24" fill="#FFFFFF"/>
+  </g>
+
+  <!-- cookie with key -->
+  <g transform="translate(780,230)">
+    <circle cx="10" cy="14" r="150" fill="#191F28" opacity="0.10"/>
+    <circle cx="0" cy="0" r="150" fill="#3182F6"/>
+    <circle cx="0" cy="0" r="122" fill="#1B64DA"/>
+    <circle cx="-60" cy="-55" r="14" fill="#EAF3FF" opacity="0.8"/>
+    <circle cx="55" cy="-70" r="10" fill="#EAF3FF" opacity="0.8"/>
+    <circle cx="70" cy="50" r="13" fill="#EAF3FF" opacity="0.8"/>
+    <circle cx="-70" cy="60" r="9" fill="#EAF3FF" opacity="0.8"/>
+    <!-- key -->
+    <g transform="rotate(-30)">
+      <circle cx="-40" cy="0" r="34" fill="none" stroke="#FFFFFF" stroke-width="16"/>
+      <rect x="-8" y="-8" width="100" height="16" rx="8" fill="#FFFFFF"/>
+      <rect x="62" y="0" width="14" height="30" rx="5" fill="#FFFFFF"/>
+      <rect x="40" y="0" width="14" height="22" rx="5" fill="#FFFFFF"/>
+    </g>
+    <!-- warning badge -->
+    <circle cx="120" cy="-120" r="44" fill="#F04452"/>
+    <rect x="114" y="-146" width="12" height="34" rx="6" fill="#FFFFFF"/>
+    <circle cx="120" cy="-98" r="7" fill="#FFFFFF"/>
+  </g>
+
+  <!-- chips -->
+  <g font-family="DejaVu Sans Mono, monospace" font-weight="bold">
+    <rect x="140" y="560" width="300" height="60" rx="30" fill="#191F28"/>
+    <text x="290" y="600" font-size="26" fill="#FFFFFF" text-anchor="middle">CVE-2026-129245</text>
+    <rect x="460" y="560" width="150" height="60" rx="30" fill="#F04452"/>
+    <text x="535" y="600" font-size="28" fill="#FFFFFF" text-anchor="middle">9.2</text>
+    <rect x="630" y="560" width="200" height="60" rx="30" fill="#FFFFFF"/>
+    <text x="730" y="600" font-size="26" fill="#1B64DA" text-anchor="middle">x/WFS</text>
+    <rect x="850" y="560" width="230" height="60" rx="30" fill="#3FB950"/>
+    <text x="965" y="600" font-size="26" fill="#FFFFFF" text-anchor="middle">→ 3.0.2</text>
+  </g>
+  <!-- small code bubble -->
+  <g transform="translate(560,70)">
+    <rect x="0" y="0" width="230" height="64" rx="20" fill="#FFFFFF"/>
+    <path d="M40 64 L60 64 L44 86 Z" fill="#FFFFFF"/>
+    <text x="115" y="42" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="bold" fill="#191F28" text-anchor="middle">admin=?</text>
+  </g>
+</svg>

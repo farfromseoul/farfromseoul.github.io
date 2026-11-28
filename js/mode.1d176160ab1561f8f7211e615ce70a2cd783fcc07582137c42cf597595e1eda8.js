@@ -1,0 +1,1 @@
+(()=>{var e=document.documentElement;function o(t){e.dataset.mode=t;try{localStorage.setItem("mode",t)}catch{}}document.addEventListener("click",t=>{t.target.closest("[data-mode-toggle]")&&o(e.dataset.mode==="terminal"?"magazine":"terminal")});})();

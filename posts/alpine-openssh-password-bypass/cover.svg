@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EAF3FF"/>
+      <stop offset="1" stop-color="#D6E8FF"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4C93FF"/>
+      <stop offset="1" stop-color="#1B64DA"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#0B3D91" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- 배경 -->
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1060" cy="110" r="190" fill="#FFFFFF" opacity="0.45"/>
+  <circle cx="120" cy="600" r="150" fill="#FFFFFF" opacity="0.35"/>
+
+  <!-- 긴 비밀번호 리본: 왼쪽에서 구불구불 들어와 열쇠 구멍으로 -->
+  <path d="M -20 486 C 120 416, 200 576, 330 496 S 520 376, 600 416"
+        fill="none" stroke="#0B3D91" stroke-width="54" stroke-linecap="round" opacity="0.08"/>
+  <path d="M -20 470 C 120 400, 200 560, 330 480 S 520 360, 600 400"
+        fill="none" stroke="#FFFFFF" stroke-width="54" stroke-linecap="round"/>
+  <g transform="translate(0 12)" font-family="'JetBrains Mono', 'DejaVu Sans Mono', monospace" font-size="26" font-weight="700" fill="#3182F6">
+    <text x="30" y="468">A</text><text x="66" y="452">A</text><text x="102" y="446">A</text>
+    <text x="140" y="458">A</text><text x="176" y="480">A</text><text x="212" y="500">A</text>
+    <text x="250" y="506">A</text><text x="288" y="494">A</text><text x="326" y="478">A</text>
+    <text x="364" y="456">A</text><text x="402" y="432">A</text><text x="440" y="414">A</text>
+    <text x="478" y="404">A</text><text x="516" y="400">A</text>
+  </g>
+  <!-- 길이 표시 -->
+  <g transform="translate(70 560)">
+    <rect width="230" height="46" rx="23" fill="#191F28"/>
+    <text x="115" y="30" text-anchor="middle" font-family="'JetBrains Mono', 'DejaVu Sans Mono', monospace" font-size="20" fill="#FFFFFF">257~1024 bytes</text>
+  </g>
+
+  <!-- 자물쇠 -->
+  <g filter="url(#shadow)">
+    <path d="M 640 300 V 230 A 130 130 0 0 1 900 230 V 300" fill="none" stroke="#8B95A1" stroke-width="46" stroke-linecap="round"/>
+    <!-- 고리가 살짝 열린 상태 -->
+    <rect x="580" y="290" width="380" height="290" rx="48" fill="url(#body)"/>
+  </g>
+  <!-- 열쇠 구멍 -->
+  <circle cx="770" cy="405" r="34" fill="#0B3D91"/>
+  <path d="M 752 420 L 742 500 H 798 L 788 420 Z" fill="#0B3D91"/>
+  <!-- 리본 끝이 구멍으로 -->
+  <path d="M 600 400 C 660 420, 700 410, 742 408" fill="none" stroke="#FFFFFF" stroke-width="30" stroke-linecap="round"/>
+
+  <!-- * = * 판정 말풍선 -->
+  <g transform="translate(870 150)" filter="url(#shadow)">
+    <rect width="230" height="96" rx="28" fill="#FFFFFF"/>
+    <path d="M 40 96 L 30 128 L 72 96 Z" fill="#FFFFFF"/>
+    <text x="115" y="64" text-anchor="middle" font-family="'JetBrains Mono', 'DejaVu Sans Mono', monospace" font-size="44" font-weight="700" fill="#191F28">* <tspan fill="#F04452">=</tspan> *</text>
+  </g>
+
+  <!-- 터미널 카드 -->
+  <g transform="translate(840 500)" filter="url(#shadow)">
+    <rect width="300" height="120" rx="20" fill="#191F28"/>
+    <circle cx="28" cy="26" r="7" fill="#F04452"/><circle cx="50" cy="26" r="7" fill="#FFB331"/><circle cx="72" cy="26" r="7" fill="#3FB950"/>
+    <text x="24" y="70" font-family="'JetBrains Mono', 'DejaVu Sans Mono', monospace" font-size="19" fill="#3FB950">Accepted password</text>
+    <text x="24" y="98" font-family="'JetBrains Mono', 'DejaVu Sans Mono', monospace" font-size="19" fill="#8B95A1">for root ▌</text>
+  </g>
+</svg>

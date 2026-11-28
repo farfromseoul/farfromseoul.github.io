@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EAF3FF"/>
+      <stop offset="1" stop-color="#D6E8FF"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3182F6"/>
+      <stop offset="1" stop-color="#1B64DA"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1080" cy="110" r="150" fill="#FFFFFF" opacity="0.35"/>
+  <circle cx="120" cy="600" r="170" fill="#FFFFFF" opacity="0.3"/>
+
+  <!-- model chip (center-left) -->
+  <rect x="268" y="188" width="360" height="340" rx="48" fill="#191F28" opacity="0.12"/>
+  <rect x="250" y="168" width="360" height="340" rx="48" fill="url(#chip)"/>
+  <!-- pins -->
+  <g fill="#1B64DA">
+    <rect x="300" y="138" width="22" height="34" rx="8"/><rect x="360" y="138" width="22" height="34" rx="8"/>
+    <rect x="420" y="138" width="22" height="34" rx="8"/><rect x="480" y="138" width="22" height="34" rx="8"/>
+    <rect x="540" y="138" width="22" height="34" rx="8"/>
+    <rect x="300" y="504" width="22" height="34" rx="8"/><rect x="360" y="504" width="22" height="34" rx="8"/>
+    <rect x="420" y="504" width="22" height="34" rx="8"/><rect x="480" y="504" width="22" height="34" rx="8"/>
+    <rect x="540" y="504" width="22" height="34" rx="8"/>
+  </g>
+  <rect x="300" y="218" width="260" height="240" rx="32" fill="#FFFFFF" opacity="0.16"/>
+  <!-- two halves: same model, two configs -->
+  <circle cx="370" cy="320" r="44" fill="#FFFFFF"/>
+  <circle cx="490" cy="320" r="44" fill="#FFFFFF" opacity="0.55"/>
+  <text x="370" y="335" font-family="DejaVu Sans, sans-serif" font-size="40" font-weight="700" fill="#1B64DA" text-anchor="middle">F</text>
+  <text x="490" y="335" font-family="DejaVu Sans, sans-serif" font-size="40" font-weight="700" fill="#191F28" text-anchor="middle">M</text>
+  <rect x="404" y="314" width="52" height="12" rx="6" fill="#FFFFFF" opacity="0.8"/>
+  <text x="430" y="420" font-family="DejaVu Sans Mono, monospace" font-size="30" font-weight="700" fill="#FFFFFF" text-anchor="middle">5.2</text>
+
+  <!-- shield on chip corner -->
+  <path d="M590 380 l52 -20 l52 20 v46 c0 40 -26 66 -52 78 c-26 -12 -52 -38 -52 -78 z" fill="#191F28" opacity="0.15" transform="translate(10,12)"/>
+  <path d="M590 380 l52 -20 l52 20 v46 c0 40 -26 66 -52 78 c-26 -12 -52 -38 -52 -78 z" fill="#3FB950"/>
+  <path d="M618 432 l18 18 l32 -36" stroke="#FFFFFF" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- price tag -->
+  <g transform="translate(760,150) rotate(-8)">
+    <path d="M14 10 h196 a20 20 0 0 1 20 20 v100 a20 20 0 0 1 -20 20 h-196 l-54 -70 z" fill="#191F28" opacity="0.13" transform="translate(10,12)"/>
+    <path d="M14 10 h196 a20 20 0 0 1 20 20 v100 a20 20 0 0 1 -20 20 h-196 l-54 -70 z" fill="#F04452"/>
+    <circle cx="10" cy="80" r="12" fill="#EAF3FF"/>
+    <text x="128" y="105" font-family="DejaVu Sans, sans-serif" font-size="58" font-weight="800" fill="#FFFFFF" text-anchor="middle">-20%</text>
+  </g>
+
+  <!-- speed gauge -->
+  <g transform="translate(900,430)">
+    <circle cx="10" cy="12" r="110" fill="#191F28" opacity="0.12"/>
+    <circle cx="0" cy="0" r="110" fill="#FFFFFF"/>
+    <path d="M-80 30 A86 86 0 1 1 80 30" stroke="#D6E8FF" stroke-width="20" fill="none" stroke-linecap="round"/>
+    <path d="M-80 30 A86 86 0 0 1 60 -62" stroke="#3182F6" stroke-width="20" fill="none" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="48" y2="-52" stroke="#191F28" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="14" fill="#191F28"/>
+    <text x="0" y="78" font-family="DejaVu Sans, sans-serif" font-size="34" font-weight="800" fill="#1B64DA" text-anchor="middle">+30%</text>
+  </g>
+
+  <!-- code chips -->
+  <rect x="82" y="72" width="330" height="56" rx="28" fill="#191F28"/>
+  <text x="247" y="109" font-family="DejaVu Sans Mono, monospace" font-size="24" fill="#FFFFFF" text-anchor="middle">effort: medium</text>
+  <rect x="82" y="572" width="360" height="56" rx="28" fill="#FFFFFF"/>
+  <text x="262" y="609" font-family="DejaVu Sans Mono, monospace" font-size="24" fill="#191F28" text-anchor="middle">$8 / $40 per 1M</text>
+</svg>

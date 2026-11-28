@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EAF3FF"/>
+      <stop offset="1" stop-color="#D6E8FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1080" cy="110" r="150" fill="#FFFFFF" opacity="0.45"/>
+  <circle cx="120" cy="600" r="130" fill="#FFFFFF" opacity="0.4"/>
+
+  <!-- Left: agent bubble -->
+  <rect x="98" y="218" width="250" height="250" rx="40" fill="#191F28" opacity="0.12"/>
+  <rect x="90" y="208" width="250" height="250" rx="40" fill="#3182F6"/>
+  <circle cx="170" cy="310" r="22" fill="#FFFFFF"/>
+  <circle cx="260" cy="310" r="22" fill="#FFFFFF"/>
+  <circle cx="174" cy="314" r="9" fill="#191F28"/>
+  <circle cx="264" cy="314" r="9" fill="#191F28"/>
+  <rect x="160" y="370" width="110" height="18" rx="9" fill="#FFFFFF" opacity="0.9"/>
+  <rect x="200" y="168" width="30" height="44" rx="10" fill="#1B64DA"/>
+  <circle cx="215" cy="158" r="18" fill="#F04452"/>
+  <rect x="112" y="480" width="206" height="48" rx="24" fill="#FFFFFF"/>
+  <text x="215" y="512" font-family="DejaVu Sans Mono, monospace" font-size="22" font-weight="700" fill="#191F28" text-anchor="middle">AI agent</text>
+
+  <!-- Arrows: REST blocked, MCP path -->
+  <path d="M350 260 Q 440 200 520 250" fill="none" stroke="#191F28" stroke-opacity="0.35" stroke-width="8" stroke-dasharray="14 12" stroke-linecap="round"/>
+  <circle cx="440" cy="222" r="26" fill="#F04452"/>
+  <path d="M428 210 L452 234 M452 210 L428 234" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+  <rect x="380" y="140" width="120" height="40" rx="20" fill="#FFFFFF"/>
+  <text x="440" y="167" font-family="DejaVu Sans Mono, monospace" font-size="20" font-weight="700" fill="#F04452" text-anchor="middle">REST</text>
+
+  <path d="M350 390 L 505 390" stroke="#3FB950" stroke-width="12" stroke-linecap="round"/>
+  <path d="M495 370 L525 390 L495 410" fill="none" stroke="#3FB950" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="380" y="420" width="110" height="40" rx="20" fill="#3FB950"/>
+  <text x="435" y="447" font-family="DejaVu Sans Mono, monospace" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">MCP</text>
+
+  <!-- Middle: gateway / plug hub -->
+  <rect x="553" y="268" width="150" height="250" rx="36" fill="#191F28" opacity="0.12"/>
+  <rect x="545" y="258" width="150" height="250" rx="36" fill="#191F28"/>
+  <rect x="575" y="292" width="90" height="36" rx="12" fill="#3182F6"/>
+  <rect x="575" y="346" width="90" height="36" rx="12" fill="#3182F6" opacity="0.75"/>
+  <rect x="575" y="400" width="90" height="36" rx="12" fill="#3182F6" opacity="0.5"/>
+  <circle cx="620" cy="472" r="12" fill="#3FB950"/>
+  <rect x="540" y="530" width="160" height="48" rx="24" fill="#FFFFFF"/>
+  <text x="620" y="562" font-family="DejaVu Sans Mono, monospace" font-size="20" font-weight="700" fill="#1B64DA" text-anchor="middle">2027-02-01</text>
+
+  <!-- Right: desktop app window -->
+  <rect x="768" y="198" width="350" height="290" rx="30" fill="#191F28" opacity="0.12"/>
+  <rect x="760" y="188" width="350" height="290" rx="30" fill="#FFFFFF"/>
+  <path d="M760 218 a30 30 0 0 1 30 -30 h290 a30 30 0 0 1 30 30 v28 h-350 z" fill="#1B64DA"/>
+  <circle cx="796" cy="217" r="9" fill="#F04452"/>
+  <circle cx="824" cy="217" r="9" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="852" cy="217" r="9" fill="#3FB950"/>
+  <rect x="790" y="276" width="140" height="22" rx="11" fill="#D6E8FF"/>
+  <rect x="790" y="312" width="150" height="22" rx="11" fill="#EAF3FF"/>
+  <rect x="790" y="348" width="120" height="22" rx="11" fill="#EAF3FF"/>
+  <rect x="960" y="270" width="120" height="120" rx="28" fill="#3182F6"/>
+  <path d="M1000 300 L1000 360 L1050 330 Z" fill="#FFFFFF"/>
+  <rect x="790" y="400" width="150" height="48" rx="24" fill="#3FB950"/>
+  <text x="865" y="431" font-family="DejaVu Sans Mono, monospace" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">Install</text>
+  <!-- lock chip -->
+  <rect x="960" y="404" width="120" height="42" rx="21" fill="#191F28"/>
+  <rect x="984" y="424" width="22" height="16" rx="4" fill="#FFFFFF"/>
+  <path d="M988 424 v-6 a7 7 0 0 1 14 0 v6" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+  <text x="1046" y="432" font-family="DejaVu Sans Mono, monospace" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">3단계</text>
+
+  <rect x="800" y="520" width="270" height="48" rx="24" fill="#FFFFFF"/>
+  <text x="935" y="552" font-family="DejaVu Sans Mono, monospace" font-size="20" font-weight="700" fill="#191F28" text-anchor="middle">Mac · Windows</text>
+</svg>

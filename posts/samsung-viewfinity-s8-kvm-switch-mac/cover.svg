@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EAF3FF"/>
+      <stop offset="1" stop-color="#D6E8FF"/>
+    </linearGradient>
+    <linearGradient id="scr" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4C95FF"/>
+      <stop offset="1" stop-color="#1B64DA"/>
+    </linearGradient>
+    <linearGradient id="alu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E2EBF7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1090" cy="100" r="96" fill="#FFFFFF" opacity="0.45"/>
+  <circle cx="110" cy="600" r="124" fill="#FFFFFF" opacity="0.4"/>
+
+  <!-- cables (behind devices) -->
+  <g fill="none" stroke-linecap="round" stroke-width="12">
+    <path d="M250 452 C250 392 452 402 452 352" stroke="#12B76A"/>
+    <path d="M1046 402 C1046 300 930 242 812 242" stroke="#3182F6"/>
+    <path d="M930 402 C930 360 762 392 762 352" stroke="#F08C00"/>
+    <path d="M566 542 C566 482 528 420 528 352" stroke="#F08C00"/>
+    <path d="M724 534 C724 470 684 420 684 352" stroke="#F08C00"/>
+  </g>
+
+  <!-- monitor shadow, stand -->
+  <ellipse cx="600" cy="452" rx="210" ry="14" fill="#191F28" opacity="0.10"/>
+  <rect x="574" y="350" width="52" height="76" fill="#2B3442"/>
+  <rect x="488" y="420" width="224" height="26" rx="13" fill="#3182F6"/>
+  <rect x="560" y="420" width="80" height="10" rx="5" fill="#1B64DA"/>
+
+  <!-- monitor -->
+  <rect x="388" y="66" width="424" height="290" rx="28" fill="#191F28"/>
+  <rect x="408" y="86" width="384" height="232" rx="16" fill="url(#scr)"/>
+  <circle cx="600" cy="337" r="5" fill="#4E5968"/>
+  <text x="432" y="118" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="700" fill="#FFFFFF" opacity="0.9">INPUT A · USB-C</text>
+  <!-- terminal window on screen -->
+  <rect x="432" y="136" width="336" height="154" rx="14" fill="#191F28"/>
+  <circle cx="456" cy="158" r="6" fill="#F04452"/>
+  <circle cx="476" cy="158" r="6" fill="#FFB020"/>
+  <circle cx="496" cy="158" r="6" fill="#3FB950"/>
+  <text x="456" y="210" font-family="DejaVu Sans Mono, monospace" font-size="24" font-weight="700" fill="#3FB950">mini-server ~ %</text>
+  <rect x="694" y="190" width="13" height="25" fill="#3FB950"/>
+  <text x="456" y="254" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#8B95A1">$ kvm --switch studio</text>
+
+  <!-- Mac mini -->
+  <ellipse cx="210" cy="540" rx="140" ry="13" fill="#191F28" opacity="0.10"/>
+  <rect x="90" y="450" width="240" height="80" rx="24" fill="url(#alu)" stroke="#C9D6E8" stroke-width="2"/>
+  <rect x="118" y="502" width="14" height="7" rx="3.5" fill="#9AA9BF"/>
+  <rect x="140" y="502" width="14" height="7" rx="3.5" fill="#9AA9BF"/>
+  <circle cx="302" cy="505" r="6" fill="#3FB950"/>
+
+  <!-- Mac Studio -->
+  <ellipse cx="990" cy="540" rx="140" ry="13" fill="#191F28" opacity="0.10"/>
+  <rect x="880" y="400" width="220" height="130" rx="32" fill="url(#alu)" stroke="#C9D6E8" stroke-width="2"/>
+  <rect x="906" y="500" width="14" height="7" rx="3.5" fill="#9AA9BF"/>
+  <rect x="928" y="500" width="14" height="7" rx="3.5" fill="#9AA9BF"/>
+  <rect x="1040" y="500" width="34" height="7" rx="3.5" fill="#9AA9BF"/>
+  <circle cx="1074" cy="426" r="5" fill="#C9D6E8"/>
+
+  <!-- keyboard + mouse -->
+  <ellipse cx="610" cy="606" rx="160" ry="11" fill="#191F28" opacity="0.08"/>
+  <rect x="468" y="540" width="214" height="60" rx="14" fill="#FFFFFF" stroke="#C9D6E8" stroke-width="2"/>
+  <g fill="#D6E2F2">
+    <rect x="484" y="554" width="18" height="10" rx="3"/><rect x="508" y="554" width="18" height="10" rx="3"/><rect x="532" y="554" width="18" height="10" rx="3"/><rect x="556" y="554" width="18" height="10" rx="3"/><rect x="580" y="554" width="18" height="10" rx="3"/><rect x="604" y="554" width="18" height="10" rx="3"/><rect x="628" y="554" width="18" height="10" rx="3"/><rect x="652" y="554" width="16" height="10" rx="3"/>
+    <rect x="492" y="570" width="18" height="10" rx="3"/><rect x="516" y="570" width="18" height="10" rx="3"/><rect x="540" y="570" width="18" height="10" rx="3"/><rect x="564" y="570" width="18" height="10" rx="3"/><rect x="588" y="570" width="18" height="10" rx="3"/><rect x="612" y="570" width="18" height="10" rx="3"/><rect x="636" y="570" width="32" height="10" rx="3"/>
+    <rect x="522" y="585" width="110" height="8" rx="3"/>
+  </g>
+  <rect x="702" y="532" width="44" height="74" rx="22" fill="#FFFFFF" stroke="#C9D6E8" stroke-width="2"/>
+  <path d="M724 540 V556" stroke="#C9D6E8" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- chip: model -->
+  <g transform="translate(70,80)">
+    <rect x="4" y="6" width="290" height="60" rx="30" fill="#191F28" opacity="0.12"/>
+    <rect width="290" height="60" rx="30" fill="#FFFFFF"/>
+    <circle cx="34" cy="30" r="11" fill="#3182F6"/>
+    <text x="58" y="39" font-family="DejaVu Sans Mono, monospace" font-size="24" font-weight="700" fill="#1B64DA">ViewFinity S8</text>
+  </g>
+
+  <!-- chip: KVM switch -->
+  <g transform="translate(856,96)">
+    <rect x="4" y="6" width="200" height="62" rx="31" fill="#191F28" opacity="0.12"/>
+    <rect width="200" height="62" rx="31" fill="#191F28"/>
+    <g stroke="#FFFFFF" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M28 24 H66 M58 16 L66 24 L58 32"/>
+      <path d="M66 40 H28 M36 32 L28 40 L36 48"/>
+    </g>
+    <text x="86" y="41" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#FFFFFF">KVM</text>
+  </g>
+
+  <!-- chip: one cable (mini) -->
+  <g transform="translate(64,352)">
+    <rect x="4" y="6" width="196" height="54" rx="27" fill="#191F28" opacity="0.12"/>
+    <rect width="196" height="54" rx="27" fill="#12B76A"/>
+    <text x="98" y="36" font-family="DejaVu Sans Mono, monospace" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle">USB-C ×1</text>
+  </g>
+
+  <!-- chip: two cables (studio) -->
+  <g transform="translate(990,198)">
+    <rect x="4" y="6" width="182" height="54" rx="27" fill="#191F28" opacity="0.12"/>
+    <rect width="182" height="54" rx="27" fill="#FFFFFF"/>
+    <circle cx="26" cy="27" r="8" fill="#3182F6"/>
+    <circle cx="44" cy="27" r="8" fill="#F08C00"/>
+    <text x="114" y="35" font-family="DejaVu Sans Mono, monospace" font-size="19" font-weight="700" fill="#191F28" text-anchor="middle">HDMI+USB-B</text>
+  </g>
+
+  <!-- device labels -->
+  <g font-family="DejaVu Sans Mono, monospace" font-size="19" font-weight="700" text-anchor="middle">
+    <rect x="120" y="566" width="180" height="40" rx="20" fill="#191F28"/>
+    <text x="210" y="592" fill="#FFFFFF">Mac mini M4</text>
+    <rect x="880" y="566" width="220" height="40" rx="20" fill="#191F28"/>
+    <text x="990" y="592" fill="#FFFFFF">Mac Studio M1 Max</text>
+  </g>
+</svg>

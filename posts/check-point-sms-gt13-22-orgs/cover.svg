@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EAF3FF"/><stop offset="1" stop-color="#D6E8FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1080" cy="110" r="150" fill="#FFFFFF" opacity="0.45"/>
+  <circle cx="120" cy="600" r="170" fill="#FFFFFF" opacity="0.4"/>
+
+  <!-- firewall brick wall (right) -->
+  <g transform="translate(760,180)">
+    <rect x="12" y="16" width="340" height="300" rx="28" fill="#191F28" opacity="0.10"/>
+    <rect x="0" y="0" width="340" height="300" rx="28" fill="#FFFFFF"/>
+    <g fill="#3182F6">
+      <rect x="24" y="24" width="140" height="56" rx="12"/><rect x="176" y="24" width="140" height="56" rx="12"/>
+      <rect x="24" y="92" width="64" height="56" rx="12" fill="#1B64DA"/><rect x="100" y="92" width="140" height="56" rx="12" fill="#1B64DA"/><rect x="252" y="92" width="64" height="56" rx="12" fill="#1B64DA"/>
+      <rect x="24" y="160" width="140" height="56" rx="12"/><rect x="176" y="160" width="140" height="56" rx="12" fill="#F04452"/>
+      <rect x="24" y="228" width="64" height="48" rx="12" fill="#1B64DA"/><rect x="100" y="228" width="140" height="48" rx="12" fill="#1B64DA"/><rect x="252" y="228" width="64" height="48" rx="12" fill="#1B64DA"/>
+    </g>
+    <!-- crack on red brick -->
+    <path d="M226 168 L246 188 L236 198 L262 212" stroke="#FFFFFF" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- management server (left) -->
+  <g transform="translate(150,150)">
+    <rect x="14" y="18" width="300" height="360" rx="30" fill="#191F28" opacity="0.12"/>
+    <rect x="0" y="0" width="300" height="360" rx="30" fill="#191F28"/>
+    <g>
+      <rect x="28" y="30" width="244" height="86" rx="16" fill="#2B3440"/>
+      <circle cx="62" cy="73" r="12" fill="#3FB950"/><rect x="92" y="62" width="150" height="22" rx="11" fill="#3182F6"/>
+      <rect x="28" y="136" width="244" height="86" rx="16" fill="#2B3440"/>
+      <circle cx="62" cy="179" r="12" fill="#F04452"/><rect x="92" y="168" width="110" height="22" rx="11" fill="#3182F6"/>
+      <rect x="28" y="242" width="244" height="86" rx="16" fill="#2B3440"/>
+      <circle cx="62" cy="285" r="12" fill="#3FB950"/><rect x="92" y="274" width="130" height="22" rx="11" fill="#3182F6"/>
+    </g>
+  </g>
+
+  <!-- open padlock between them -->
+  <g transform="translate(520,250)">
+    <circle cx="100" cy="110" r="110" fill="#FFFFFF" opacity="0.7"/>
+    <path d="M60 92 V60 a40 40 0 0 1 80 0 V40" stroke="#191F28" stroke-width="16" fill="none" stroke-linecap="round"/>
+    <rect x="44" y="92" width="112" height="96" rx="20" fill="#F04452"/>
+    <circle cx="100" cy="132" r="14" fill="#FFFFFF"/><rect x="94" y="136" width="12" height="28" rx="6" fill="#FFFFFF"/>
+  </g>
+  <!-- dashed path server -> wall -->
+  <path d="M455 330 C 500 300, 500 300, 540 320" stroke="#1B64DA" stroke-width="6" stroke-dasharray="4 14" stroke-linecap="round" fill="none"/>
+  <path d="M705 360 C 730 350, 740 340, 760 330" stroke="#1B64DA" stroke-width="6" stroke-dasharray="4 14" stroke-linecap="round" fill="none"/>
+
+  <!-- chips -->
+  <g font-family="DejaVu Sans Mono, monospace" font-weight="700" font-size="30">
+    <rect x="150" y="560" width="330" height="62" rx="31" fill="#191F28"/>
+    <text x="315" y="602" text-anchor="middle" fill="#FFFFFF">CVE-2026-16232</text>
+    <rect x="500" y="560" width="230" height="62" rx="31" fill="#F04452"/>
+    <text x="615" y="602" text-anchor="middle" fill="#FFFFFF">24 SMS</text>
+    <rect x="750" y="560" width="300" height="62" rx="31" fill="#3FB950"/>
+    <text x="900" y="602" text-anchor="middle" fill="#FFFFFF">R81.20 T158+</text>
+    <rect x="150" y="70" width="250" height="56" rx="28" fill="#3182F6"/>
+    <text x="275" y="108" text-anchor="middle" fill="#FFFFFF" font-size="28">22 orgs</text>
+  </g>
+</svg>

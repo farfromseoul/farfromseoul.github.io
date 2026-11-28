@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EAF3FF"/>
+      <stop offset="1" stop-color="#D6E8FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1080" cy="96" r="160" fill="#FFFFFF" opacity="0.35"/>
+  <circle cx="120" cy="600" r="170" fill="#FFFFFF" opacity="0.3"/>
+
+  <!-- inbox server (right) -->
+  <rect x="826" y="196" width="260" height="330" rx="36" fill="#191F28" opacity="0.10"/>
+  <rect x="810" y="176" width="260" height="330" rx="36" fill="#191F28"/>
+  <rect x="844" y="216" width="192" height="64" rx="18" fill="#2B3440"/>
+  <circle cx="874" cy="248" r="10" fill="#3FB950"/>
+  <rect x="898" y="240" width="110" height="16" rx="8" fill="#3182F6" opacity="0.7"/>
+  <rect x="844" y="300" width="192" height="64" rx="18" fill="#2B3440"/>
+  <circle cx="874" cy="332" r="10" fill="#F04452"/>
+  <rect x="898" y="324" width="80" height="16" rx="8" fill="#3182F6" opacity="0.7"/>
+  <rect x="844" y="384" width="192" height="90" rx="18" fill="#2B3440"/>
+  <text x="940" y="440" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="34" font-weight="bold" fill="#F04452">550</text>
+
+  <!-- bounce path arrow -->
+  <path d="M770 300 C 700 200, 600 190, 548 236" fill="none" stroke="#1B64DA" stroke-width="10" stroke-linecap="round" stroke-dasharray="4 22"/>
+  <path d="M560 206 L546 240 L582 246" fill="none" stroke="#1B64DA" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- envelope (bounced) -->
+  <g transform="rotate(-8 340 360)">
+    <rect x="186" y="286" width="320" height="210" rx="26" fill="#191F28" opacity="0.10"/>
+    <rect x="170" y="266" width="320" height="210" rx="26" fill="#FFFFFF"/>
+    <path d="M182 290 L330 390 L478 290" fill="none" stroke="#3182F6" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M190 452 L290 372 M470 452 L370 372" stroke="#D6E8FF" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <!-- red X badge -->
+  <circle cx="178" cy="262" r="44" fill="#F04452"/>
+  <path d="M160 244 L196 280 M196 244 L160 280" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- DNS record chip -->
+  <rect x="96" y="96" width="560" height="74" rx="37" fill="#191F28" opacity="0.10"/>
+  <rect x="84" y="82" width="560" height="74" rx="37" fill="#FFFFFF"/>
+  <text x="120" y="130" font-family="DejaVu Sans Mono, monospace" font-size="28" fill="#191F28">_dmarc</text>
+  <text x="240" y="130" font-family="DejaVu Sans Mono, monospace" font-size="28" fill="#8B95A1">TXT</text>
+  <text x="312" y="130" font-family="DejaVu Sans Mono, monospace" font-size="28" font-weight="bold" fill="#1B64DA">v=DMARC1; p=none</text>
+
+  <!-- checklist chips -->
+  <g font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="bold">
+    <rect x="132" y="560" width="150" height="58" rx="29" fill="#3FB950"/>
+    <text x="207" y="598" text-anchor="middle" fill="#FFFFFF">SPF ✓</text>
+    <rect x="300" y="560" width="160" height="58" rx="29" fill="#3FB950"/>
+    <text x="380" y="598" text-anchor="middle" fill="#FFFFFF">DKIM ✓</text>
+    <rect x="478" y="560" width="180" height="58" rx="29" fill="#F04452"/>
+    <text x="568" y="598" text-anchor="middle" fill="#FFFFFF">DMARC ?</text>
+  </g>
+  <text x="940" y="566" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="24" fill="#191F28">5.7.1</text>
+</svg>

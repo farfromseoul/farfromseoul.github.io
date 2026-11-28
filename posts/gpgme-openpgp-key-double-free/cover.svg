@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EAF3FF"/>
+      <stop offset="1" stop-color="#D6E8FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1080" cy="110" r="150" fill="#3182F6" opacity="0.08"/>
+  <circle cx="120" cy="600" r="180" fill="#1B64DA" opacity="0.07"/>
+
+  <!-- envelope -->
+  <rect x="148" y="232" width="430" height="290" rx="34" fill="#191F28" opacity="0.10"/>
+  <rect x="130" y="214" width="430" height="290" rx="34" fill="#FFFFFF"/>
+  <path d="M152 244 L345 388 L538 244" fill="none" stroke="#3182F6" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="180" y="420" width="150" height="20" rx="10" fill="#D6E8FF"/>
+  <rect x="180" y="455" width="230" height="20" rx="10" fill="#D6E8FF"/>
+  <!-- seal -->
+  <circle cx="500" cy="452" r="40" fill="#3FB950"/>
+  <path d="M482 452 l13 13 l24 -26" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- key -->
+  <g transform="translate(610 300) rotate(-18)">
+    <circle cx="18" cy="18" r="92" fill="#191F28" opacity="0.10"/>
+    <circle cx="0" cy="0" r="92" fill="#1B64DA"/>
+    <circle cx="0" cy="0" r="38" fill="#EAF3FF"/>
+    <rect x="80" y="-22" width="330" height="44" rx="22" fill="#1B64DA"/>
+    <rect x="300" y="14" width="34" height="58" rx="12" fill="#1B64DA"/>
+    <rect x="360" y="14" width="34" height="78" rx="12" fill="#1B64DA"/>
+  </g>
+
+  <!-- long user id tag -->
+  <rect x="628" y="470" width="470" height="70" rx="35" fill="#191F28" opacity="0.10"/>
+  <rect x="616" y="458" width="470" height="70" rx="35" fill="#FFFFFF"/>
+  <text x="646" y="504" font-family="DejaVu Sans Mono, monospace" font-size="28" fill="#191F28">uid: AAAAAAAAAAAAAAAAAAAA…</text>
+
+  <!-- double free chip -->
+  <rect x="660" y="64" width="300" height="76" rx="38" fill="#F04452"/>
+  <text x="810" y="114" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="32" font-weight="bold" fill="#FFFFFF">free() ×2</text>
+
+  <!-- version chip -->
+  <rect x="860" y="572" width="226" height="62" rx="31" fill="#3182F6"/>
+  <text x="973" y="613" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="28" font-weight="bold" fill="#FFFFFF">2.3.1 ✓</text>
+
+  <!-- buffer blocks -->
+  <g>
+    <rect x="130" y="100" width="90" height="56" rx="14" fill="#3182F6"/>
+    <rect x="232" y="100" width="90" height="56" rx="14" fill="#3182F6" opacity="0.6"/>
+    <rect x="334" y="100" width="90" height="56" rx="14" fill="#F04452" opacity="0.85"/>
+    <text x="175" y="137" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#FFFFFF">1024</text>
+  </g>
+</svg>

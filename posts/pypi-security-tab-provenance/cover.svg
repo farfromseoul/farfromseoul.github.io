@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EAF3FF"/><stop offset="1" stop-color="#D6E8FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1080" cy="110" r="90" fill="#3182F6" opacity="0.08"/>
+  <circle cx="120" cy="590" r="120" fill="#3182F6" opacity="0.07"/>
+
+  <!-- browser window -->
+  <rect x="148" y="128" width="600" height="440" rx="28" fill="#191F28" opacity="0.10"/>
+  <rect x="136" y="114" width="600" height="440" rx="28" fill="#FFFFFF"/>
+  <rect x="136" y="114" width="600" height="64" rx="28" fill="#191F28"/>
+  <rect x="136" y="150" width="600" height="28" fill="#191F28"/>
+  <circle cx="176" cy="146" r="9" fill="#F04452"/>
+  <circle cx="204" cy="146" r="9" fill="#FFC542"/>
+  <circle cx="232" cy="146" r="9" fill="#3FB950"/>
+  <!-- tabs -->
+  <rect x="166" y="204" width="130" height="42" rx="12" fill="#EAF3FF"/>
+  <rect x="306" y="204" width="130" height="42" rx="12" fill="#EAF3FF"/>
+  <rect x="446" y="204" width="150" height="42" rx="12" fill="#3182F6"/>
+  <rect x="186" y="220" width="90" height="10" rx="5" fill="#9DBCE6"/>
+  <rect x="326" y="220" width="90" height="10" rx="5" fill="#9DBCE6"/>
+  <text x="521" y="232" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle">Security</text>
+  <!-- file rows -->
+  <g font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#191F28">
+    <rect x="166" y="272" width="540" height="64" rx="16" fill="#F4F8FF"/>
+    <text x="190" y="311">pkg-2.1-py3-none-any.whl</text>
+    <circle cx="672" cy="304" r="18" fill="#3FB950"/>
+    <path d="M663 304 l7 7 l12 -14" stroke="#fff" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="166" y="350" width="540" height="64" rx="16" fill="#F4F8FF"/>
+    <text x="190" y="389">pkg-2.1.tar.gz</text>
+    <circle cx="672" cy="382" r="18" fill="#3FB950"/>
+    <path d="M663 382 l7 7 l12 -14" stroke="#fff" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="166" y="428" width="540" height="64" rx="16" fill="#FFF1F2"/>
+    <text x="190" y="467">pkg-2.1-win_amd64.whl</text>
+    <circle cx="672" cy="460" r="18" fill="#F04452"/>
+    <rect x="669" y="448" width="6" height="15" rx="3" fill="#fff"/>
+    <circle cx="672" cy="471" r="3.5" fill="#fff"/>
+  </g>
+  <rect x="166" y="510" width="200" height="16" rx="8" fill="#D6E8FF"/>
+
+  <!-- package box with shield -->
+  <ellipse cx="930" cy="560" rx="170" ry="22" fill="#191F28" opacity="0.10"/>
+  <path d="M800 300 L930 240 L1060 300 L930 360 Z" fill="#5B9BF8"/>
+  <path d="M800 300 L930 360 L930 545 L800 480 Z" fill="#3182F6"/>
+  <path d="M1060 300 L930 360 L930 545 L1060 480 Z" fill="#1B64DA"/>
+  <path d="M865 270 L995 330 L995 370 L975 380 L975 340 L845 280 Z" fill="#FFFFFF" opacity="0.35"/>
+  <!-- shield -->
+  <path d="M930 180 L1010 210 L1010 280 C1010 335 975 368 930 388 C885 368 850 335 850 280 L850 210 Z" fill="#191F28" opacity="0.12" transform="translate(8,10)"/>
+  <path d="M930 180 L1010 210 L1010 280 C1010 335 975 368 930 388 C885 368 850 335 850 280 L850 210 Z" fill="#FFFFFF"/>
+  <path d="M930 200 L992 223 L992 280 C992 324 965 350 930 367 C895 350 868 324 868 280 L868 223 Z" fill="#3FB950"/>
+  <path d="M900 282 l22 22 l40 -44" stroke="#fff" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- chips -->
+  <g font-family="DejaVu Sans Mono, monospace" font-weight="700">
+    <rect x="780" y="80" width="250" height="52" rx="26" fill="#191F28"/>
+    <text x="905" y="114" font-size="21" fill="#FFFFFF" text-anchor="middle">$ pip install</text>
+    <rect x="776" y="586" width="308" height="50" rx="25" fill="#FFFFFF"/>
+    <text x="930" y="619" font-size="20" fill="#F04452" text-anchor="middle">provenance: partial</text>
+  </g>
+</svg>

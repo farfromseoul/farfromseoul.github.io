@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EAF3FF"/><stop offset="1" stop-color="#D6E8FF"/>
+    </linearGradient>
+    <linearGradient id="sh" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3182F6"/><stop offset="1" stop-color="#1B64DA"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1080" cy="110" r="70" fill="#FFFFFF" opacity="0.5"/>
+  <circle cx="130" cy="580" r="90" fill="#FFFFFF" opacity="0.45"/>
+
+  <!-- server window -->
+  <rect x="128" y="178" width="440" height="330" rx="28" fill="#191F28" opacity="0.12"/>
+  <rect x="116" y="164" width="440" height="330" rx="28" fill="#FFFFFF"/>
+  <rect x="116" y="164" width="440" height="62" rx="28" fill="#191F28"/>
+  <rect x="116" y="200" width="440" height="26" fill="#191F28"/>
+  <circle cx="152" cy="195" r="9" fill="#F04452"/><circle cx="180" cy="195" r="9" fill="#FFC84A"/><circle cx="208" cy="195" r="9" fill="#3FB950"/>
+  <text x="240" y="203" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#D6E8FF">w3wp.exe</text>
+  <rect x="150" y="256" width="250" height="20" rx="10" fill="#D6E8FF"/>
+  <rect x="150" y="294" width="330" height="20" rx="10" fill="#D6E8FF"/>
+  <rect x="150" y="332" width="200" height="20" rx="10" fill="#D6E8FF"/>
+  <rect x="150" y="390" width="372" height="68" rx="16" fill="#FFE5E8"/>
+  <text x="172" y="434" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="bold" fill="#F04452">&gt; cmd.exe /c ...</text>
+
+  <!-- shield with crack -->
+  <path d="M842 150 L992 205 L992 330 C992 430 922 500 842 540 C762 500 692 430 692 330 L692 205 Z" fill="#191F28" opacity="0.12" transform="translate(12,14)"/>
+  <path d="M842 150 L992 205 L992 330 C992 430 922 500 842 540 C762 500 692 430 692 330 L692 205 Z" fill="url(#sh)"/>
+  <path d="M842 196 L950 236 L950 330 C950 404 900 458 842 490 C784 458 734 404 734 330 L734 236 Z" fill="#FFFFFF" opacity="0.18"/>
+  <path d="M850 168 L820 262 L866 300 L812 392 L852 436 L830 520" fill="none" stroke="#EAF3FF" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M850 168 L820 262 L866 300 L812 392 L852 436 L830 520" fill="none" stroke="#F04452" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- cookie -->
+  <circle cx="1000" cy="502" r="66" fill="#191F28" opacity="0.12" transform="translate(8,10)"/>
+  <circle cx="1000" cy="502" r="66" fill="#F3C27A"/>
+  <circle cx="976" cy="480" r="9" fill="#8A5A2B"/><circle cx="1024" cy="492" r="8" fill="#8A5A2B"/>
+  <circle cx="992" cy="532" r="9" fill="#8A5A2B"/><circle cx="1030" cy="530" r="7" fill="#8A5A2B"/>
+  <path d="M1052 460 a20 20 0 0 1 14 30 a66 66 0 0 0 -14 -30z" fill="#D6E8FF"/>
+
+  <!-- arrow from cookie to server -->
+  <path d="M640 548 C 700 600, 860 610, 930 560" fill="none" stroke="#1B64DA" stroke-width="7" stroke-dasharray="4 16" stroke-linecap="round"/>
+  <path d="M640 548 L664 532 M640 548 L660 572" stroke="#1B64DA" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- chips -->
+  <rect x="610" y="78" width="250" height="54" rx="27" fill="#191F28"/>
+  <text x="735" y="114" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="24" font-weight="bold" fill="#FFFFFF">CVSS 9.3</text>
+  <rect x="880" y="78" width="230" height="54" rx="27" fill="#F04452"/>
+  <text x="995" y="114" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">No patch</text>
+  <rect x="116" y="548" width="300" height="54" rx="27" fill="#FFFFFF"/>
+  <text x="266" y="584" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="24" font-weight="bold" fill="#1B64DA">POST /form.aspx</text>
+  <rect x="116" y="84" width="210" height="48" rx="24" fill="#3FB950"/>
+  <text x="221" y="116" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="22" font-weight="bold" fill="#FFFFFF">CWE-502</text>
+</svg>
